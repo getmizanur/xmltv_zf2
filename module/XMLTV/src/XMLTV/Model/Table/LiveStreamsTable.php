@@ -85,7 +85,7 @@ class LiveStreamsTable extends AbstractTable
         $lastInsert = null;
         if ($id == 0) {
             $this->insert($data);
-            $lastInsert = $this->getLastInsertValue();
+            $lastInsert = $this->lastInsertValue;
         } elseif ($this->getLiveStreamById($id)) {
             $this->update(
                 $data,

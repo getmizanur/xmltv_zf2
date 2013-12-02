@@ -7,7 +7,7 @@ return array(
         'config_cache_enabled' => false,
         'cache_dir' => 'data/cache',
         'config_static_paths' => array(
-            __DIR__ . '/autoload/development.config.php',
+            __DIR__ . '/autoload/production.config.php',
         ),
         'module_paths' => array(
             'XMLTV' => __DIR__ . '/../module/XMLTV',
