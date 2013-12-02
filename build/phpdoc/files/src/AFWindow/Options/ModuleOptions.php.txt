@@ -1,0 +1,34 @@
+<?php
+                               
+namespace AFWindow\Options;        
+
+use Zend\Stdlib\AbstractOptions;
+
+class ModuleOptions extends AbstractOptions
+{ 
+    protected $currencyRateOptions; 
+    protected $currencyOptions;
+    
+    public function getCurrencyRateOptions()
+    {
+        return $this->currencyRateOptions;   
+    }
+    
+    public function setCurrencyRateOptions($currencyRateOptions)
+    {
+        $this->currencyRateOptions = new CurrencyRateOptions($currencyRateOptions);
+        return $this;          
+    }   
+
+    public function getCurrencyOptions()
+    {
+        return $this->currencyOptions;   
+    }
+    
+    public function setCurrencyOptions($currencyOptions)
+    {
+        $this->currencyOptions = new CurrencyOptions($currencyOptions);
+        return $this;          
+    } 
+}   
+

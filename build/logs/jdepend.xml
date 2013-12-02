@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="AFWindow">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>5</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/Module.php">Module</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>AFWindow\Model\Table</Package>
+        <Package>AFWindow\Options</Package>
+        <Package>Zend\Console\Adapter</Package>
+        <Package>Zend\Db\Adapter</Package>
+        <Package>Zend\ModuleManager\Feature</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AFWindow\Controller">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Controller/ReportController.php">ReportController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Zend\InputFilter</Package>
+        <Package>Zend\Mvc\Controller</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AFWindow\Model\Service">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Model/Service/AbstractService.php">AbstractService</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Model/Service/CurrencyWebService.php">CurrencyWebService</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Zend\InputFilter</Package>
+        <Package>Zend\ServiceManager</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="AFWindow\Model\Table">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>0.66666666666667</I>
+        <D>0.33333333333333</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Model/Table/AbstractTable.php">AbstractTable</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Model/Table/TransactionTable.php">TransactionTable</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Zend\Db\TableGateway</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AFWindow</Package>
+      </UsedBy>
+    </Package>
+    <Package name="AFWindow\Options">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Options/CurrencyRateOptions.php">CurrencyRateOptions</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Options/ModuleOptions.php">ModuleOptions</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Zend\Stdlib</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>AFWindow</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Mm\Common">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>0</ConcreteClasses>
+        <AbstractClasses>3</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>1</A>
+        <I>1</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses/>
+      <AbstractClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/Common/ArraySerializable.php">ArraySerializable</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/Common/Entity.php">Entity</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/Common/Validatible.php">Validatible</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>Zend\InputFilter</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Mm\ModuleManager">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>3</Ca>
+        <Ce>1</Ce>
+        <A>0.33333333333333</A>
+        <I>0.25</I>
+        <D>0.41666666666667</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/ModuleEvent.php">ModuleEvent</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/ModuleManager.php">ModuleManager</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Exception.php">Exception</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>Zend\ModuleManager</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Mm\ModuleManager\Listener</Package>
+        <Package>Mm\ModuleManager\Listener\Exception</Package>
+        <Package>Mm\Mvc\Service</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Mm\ModuleManager\Listener">
+      <Stats>
+        <TotalClasses>7</TotalClasses>
+        <ConcreteClasses>5</ConcreteClasses>
+        <AbstractClasses>2</AbstractClasses>
+        <Ca>3</Ca>
+        <Ce>7</Ce>
+        <A>0.28571428571429</A>
+        <I>0.7</I>
+        <D>0.014285714285714</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/AuthListenerAggregate.php">AuthListenerAggregate</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/AuthManager.php">AuthManager</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/ConfigListener.php">ConfigListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/ListenerManager.php">ListenerManager</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/ListenerOptions.php">ListenerOptions</Class>
+      </ConcreteClasses>
+      <AbstractClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/AbstractListener.php">AbstractListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/AuthorizeHandlerInterface.php">AuthorizeHandlerInterface</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>Mm\ModuleManager</Package>
+        <Package>Mm\ModuleManager\Listener\Config</Package>
+        <Package>Mm\ModuleManager\Listener\Exception</Package>
+        <Package>Zend\EventManager</Package>
+        <Package>Zend\ModuleManager</Package>
+        <Package>Zend\ModuleManager\Listener</Package>
+        <Package>Zend\ServiceManager</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Mm\ModuleManager\Listener\Environment</Package>
+        <Package>Mm\ModuleManager\Listener\Server</Package>
+        <Package>Mm\Mvc\Service</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Mm\ModuleManager\Listener\Exception">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>0.75</I>
+        <D>0.25</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Config/Exception/InvalidArgumentException.php">InvalidArgumentException</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Exception/InvalidArgumentException.php">InvalidArgumentException</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Exception/InvalidListenerException.php">InvalidListenerException</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>Mm\ModuleManager</Package>
+        <Package>Zend\ModuleManager\Listener</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Mm\ModuleManager\Listener</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Mm\ModuleManager\Listener\Config">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Config/LazyLoading.php">LazyLoading</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Mm\ModuleManager\Listener\Config\Exception</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>Mm\ModuleManager\Listener</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Mm\ModuleManager\Listener\Environment">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Environment/GetoptListener.php">GetoptListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Environment/SapiListener.php">SapiListener</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Mm\ModuleManager\Listener</Package>
+        <Package>Zend\Console</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Mm\ModuleManager\Listener\Server">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>9</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/DateTime.php">DateTime</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/DomainListener.php">DomainListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/HttpMethod.php">HttpMethod</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/HttpsListener.php">HttpsListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/Logger.php">Logger</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/PortListener.php">PortListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/RemoteAddrListener.php">RemoteAddrListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/TokenListener.php">TokenListener</Class>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Server/UrlListener.php">UrlListener</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Mm\ModuleManager\Listener</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Mm\Mvc\Controller\Plugin">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/Mvc/Controller/Plugin/FlashMessenger.php">FlashMessenger</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Zend\Mvc\Controller\Plugin</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Mm\Mvc\Service">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/Mvc/Service/ModuleManagerFactory.php">ModuleManagerFactory</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Mm\ModuleManager</Package>
+        <Package>Mm\ModuleManager\Listener</Package>
+        <Package>Zend\ServiceManager</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="Mm\View\Helper">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/View/Helper/IoDocs.php">IoDocs</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>Zend\View\Helper</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

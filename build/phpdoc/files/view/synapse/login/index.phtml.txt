@@ -1,0 +1,24 @@
+<div class="hero-unit">        
+    <h1><?php echo sprintf($this->translate('Welcome to the %sProftp API%s'), '<span class="zf-green">', '</span>') ?></h1>
+    <p><?php echo $this->translate('The Dashboard API is built up of several modules responsible for all things associated to live streams and video processing. Such as managing live streams associated to an organisation, accessing stream URIs, generating catchuptv, live previews and managing the processing queue'); ?></p>
+    <p><a class="btn btn-success" href="https://bitbucket.org/ottilus/chunderbase" target="_blank"><?php echo $this->translate('BitBucket Space') ?> &raquo;</a> <a class="btn btn-success" href="ssh://git@bitbucket.org/ottilus/chunderbase.git" target="_blank"><?php echo $this->translate('Git Repository') ?> &raquo;</a></p>
+    <?php if ($token) : ?>     
+    <p>                        
+        <?php echo $this->translate('You typically need to provide an SSO token to gain access to various API calls. To help you out with this, use this:'); ?>
+        <textarea class="token"><?php echo $token; ?></textarea>
+    </p>
+    <?php endif; ?>
+    <!--<p><a class="btn btn-success btn-large" href="https://github.com/zendframework/zf2" target="_blank"><?php echo $this->translate('Fork Zend Framework 2 on GitHub') ?> &raquo;</a></p>-->
+</div>
+
+<div class="row">
+
+    <div class="span4">        
+        <h2><?php echo $this->translate('Proftp Module') ?></h2>
+        <p><?php echo $this->translate('The Dashboard module is responsible for fetching all forms of dashboard widget.') ?></p>
+        <p><a class="btn btn-success" href="https://ottilus.atlassian.net/wiki/display/LGD/Lingard+Home" target="_blank"><?php echo $this->translate('API Specifications') ?> &raquo;</a></p>
+        <p><a class="btn btn-success" href="/docs/lingard" target="_blank"><?php echo $this->translate('API Documentation') ?> &raquo;</a></p>
+    </div>
+</div>  
+
+

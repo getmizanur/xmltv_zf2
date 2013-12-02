@@ -1,0 +1,37 @@
+<?php
+return array(                  
+    'afw_options' => array(   
+        'currency_rate_options' => array(     
+            'base_currency' => array(
+                "GBP"
+            ),
+            'currencies' => array(
+                "USD", "EUR", "GBP"
+            ),
+            'symbols' => array(
+                "$", "€", "£"
+            )
+         ),
+    ),
+    'controllers' => array(    
+        'invokables' => array( 
+            'afw-crawl' => 'AFWindow\Controller\ReportController',
+        ),                     
+    ),
+    'console' => array(
+        'router' => array(
+            'routes' => array(
+                'import-transactions' => array(         
+                    'options' => array(             
+                        'route' => '--transaction-report [<id>]',     
+                        'defaults' => array(            
+                            'controller' => 'afw-crawl',   
+                            'action'     => 'transaction',        
+                        ),     
+                    ),
+                ),             
+            ),
+        ),
+    ),
+);
+

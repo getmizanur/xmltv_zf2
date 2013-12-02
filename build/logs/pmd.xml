@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="1.5.0" timestamp="2013-11-05T03:10:23+00:00">
+  <file name="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/Module.php">
+    <violation beginline="39" endline="39" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$console'.
+    </violation>
+  </file>
+  <file name="/home/mizanur/public_html/uapi2_zf2/module/AFWindow/src/AFWindow/Controller/ReportController.php">
+    <violation beginline="18" endline="18" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$baseCurrency'.
+    </violation>
+  </file>
+  <file name="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/ModuleManager/Listener/Environment/GetoptListener.php">
+    <violation beginline="21" endline="21" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$comment'.
+    </violation>
+  </file>
+  <file name="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/View/Helper/IoDocs.php">
+    <violation beginline="91" endline="91" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$counter'.
+    </violation>
+    <violation beginline="94" endline="94" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$ktype'.
+    </violation>
+  </file>
+  <error filename="/home/mizanur/public_html/uapi2_zf2/vendor/Mm/View/Helper/FlashMessenger.php" msg="Unexpected token: Application, line: 5, col: 5, file: /home/mizanur/public_html/uapi2_zf2/vendor/Mm/View/Helper/FlashMessenger.php." />
+</pmd>

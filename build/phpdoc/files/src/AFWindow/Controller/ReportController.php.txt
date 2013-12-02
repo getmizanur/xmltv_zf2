@@ -1,0 +1,85 @@
+<?php
+
+namespace AFWindow\Controller;
+
+use Zend\Mvc\Controller\AbstractActionController;
+use Zend\InputFilter\Factory;
+
+class ReportController extends AbstractActionController
+{    
+    public function transactionAction()
+    {	        
+        $sm = $this->getServiceLocator();
+
+        $currencyWebService = $sm->get('CurrencyWebService');
+
+        $currencyRateOptions = $sm->get('AFWindowOptions')
+            ->getCurrencyRateOptions();
+        $baseCurrency = $currencyRateOptions->getBaseCurrency();
+        $currencies  = $currencyRateOptions->getCurrencies();
+        $symbols  = $currencyRateOptions->getSymbols();
+
+        $currency = array_combine($currencies, $symbols);
+        array_walk($currency, function(&$item, $key) {
+            $item = mb_convert_encoding($item, 'HTML-ENTITIES', 'UTF-8');
+        });
+
+        $factory = new Factory();  
+        $inputFilter = $factory->createInputFilter(array (
+            'id' => array (   
+                'name' => 'id',  
+                'required' => true,             
+                'filters' => array (            
+                    array ('name' => 'StripTags'),  
+                    array ('name' => 'StringTrim'), 
+                    array ('name' => 'HtmlEntities')
+                ),                 
+                'validators' => array (         
+                    array ('name' => 'not_empty'),  
+                    array ('name' => 'Int')
+                )
+            ),
+        ));
+
+        $inputFilter->setData($this->getRequest()->getParams());
+        if(!$inputFilter->isValid()) {
+            echo "----------------------------------------------------------\n";
+            echo "Notice: Invalid merchant id\n";
+            echo "----------------------------------------------------------\n";
+            echo "\nUse --transaction-report <merchant_id>\n\n";
+            exit();
+        }
+
+        $transactionModel = $sm->get('TransactionModel');
+        $transactions = $transactionModel->getTransactionByMerchantId(
+            $inputFilter->getValue('id')
+        );
+
+        echo "Date\t\tAmount (FX)\tAmount(GBP)\n";
+
+        foreach($transactions as $transaction) {
+           $match = array_map(function($value) use ($transaction) {
+                if(strpos(mb_convert_encoding($transaction[2], 'HTML-ENTITIES', 'UTF-8'), $value) !== false) {
+                    return $value;
+                }
+            }, $currency);
+
+            $match = array_intersect($currency, $match);
+            $key = key($match);
+            $exchangeRate = $currencyWebService->getExchangeRate($key);
+
+            if(!is_null($exchangeRate)) {
+                $stripCurrency = str_replace($match[$key], '', 
+                    mb_convert_encoding($transaction[2], 'HTML-ENTITIES', 'UTF-8'));
+
+                $amountGBP = ($exchangeRate === 0) ? "£{$stripCurrency}" : "£" . 
+                    number_format(round(($stripCurrency * $exchangeRate), 2), 2);
+
+                echo $transaction[1] . "\t" . $transaction[2] . "\t\t" . $amountGBP . "\t\n";
+            }else{
+                echo "Third party service is down, please try again later\n";
+            }
+        }
+    }
+}
+

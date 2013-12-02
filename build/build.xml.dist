@@ -1,0 +1,171 @@
+<project name="AFWindow" default="build" basedir="../">                      
+                                                                                 
+    <target name="init">                                                         
+       <property file="${basedir}/build/ant.properties" />                       
+                                                                                 
+       <condition property="script-suffix" value=".bat" else="">                 
+            <os family="windows" />                                              
+       </condition>                                                              
+                                                                                 
+       <echo message="---- Build Properties ----" />                             
+       <echo message="" />                                                       
+                                                                                 
+       <echo message="OS is ${os.name}" />                                       
+       <echo message="Basedir is ${basedir}" />                                  
+       <echo message="Property file is ${basedir}/build/ant.properties" />       
+       <echo message="Script-suffix is ${script-suffix}" />                      
+                                                                                 
+       <echo message="" />                                                       
+       <echo message="---- ${ant.project.name} Properties ----" />               
+       <echo message="" />                                                       
+                                                                                 
+       <echo message="Environment is ${environment}" />                          
+                                                                                 
+    </target>                                                                    
+                                                                                 
+    <target name="configure" depends="init">                                     
+       <copy file="${basedir}/application/application.php.dist"                  
+             tofile="${basedir}/application/application.php" overwrite="true" /> 
+       <replace file="${basedir}/application/application.php" token="@ENVIRONMENT@" value="${environment}" />
+                                                                                 
+       <copy file="${basedir}/build/upload.sh.dist"                              
+         tofile="${basedir}/build/upload.sh" overwrite="true" />                 
+       <replace file="${basedir}/build/upload.sh" token="@USERNAME@" value="${username}" />
+       <replace file="${basedir}/build/upload.sh" token="@SVN_URL@" value="${svn_url}" />
+       <replace file="${basedir}/build/upload.sh" token="@LOCAL_FOLDER@" value="${local_folder}" />
+       <replace file="${basedir}/build/upload.sh" token="@REMOTE_SERVER@" value="${remote_server}" />
+       <replace file="${basedir}/build/upload.sh" token="@REMOTE_FOLDER@" value="${remote_folder}" />
+    </target>                                                                    
+                                                                                 
+    <target name="test" depends="init">                                          
+        <exec dir="${basedir}/tests" executable="phpunit${script-suffix}" failonerror="true">
+            <arg line="--configuration phpunit.xml"/>                            
+        </exec>                                                                  
+    </target> 
+
+    <target name="clean" description="Remove all build directories">             
+        <delete dir="${basedir}/build/logs" />                                   
+        <delete dir="${basedir}/build/phpdoc" />                                 
+        <delete dir="${basedir}/build/docblox" />                                
+        <delete dir="${basedir}/build/code-browser" />                           
+        <delete dir="${basedir}/build/coverage" />                               
+        <delete dir="${basedir}/build/pdepend" />                                
+    </target>                                                                    
+                                                                                 
+    <target name="preparation" depends="clean" description="Create all build folders">
+        <mkdir dir="${basedir}/build/logs" />                                    
+        <mkdir dir="${basedir}/build/phpdoc" />                                  
+        <mkdir dir="${basedir}/build/docblox" />                                 
+        <mkdir dir="${basedir}/build/code-browser" />                            
+        <mkdir dir="${basedir}/build/coverage" />                                
+        <mkdir dir="${basedir}/build/pdepend" />                                 
+    </target>                                                                    
+                                                                                 
+    <target name="pdepend"                                                       
+            description="Generate jdepend.xml and software metrics charts using PHP_Depend">
+        <exec executable="pdepend">                                              
+        <arg line="--jdepend-xml=${basedir}/build/logs/jdepend.xml               
+            --jdepend-chart=${basedir}/build/pdepend/dependencies.svg            
+            --overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg     
+            --suffix=php                                                         
+            --ignore=tests,Zend                                                  
+            ${basedir}" />                                                       
+        </exec>                                                                  
+    </target>                                                                    
+                                                                                 
+    <target name="phpmd"                                                         
+            description="Generate pmd.xml using PHPMD">                          
+        <exec executable="phpmd" failonerror="false">                            
+            <arg line="${basedir} xml codesize,unusedcode                        
+                --reportfile ${basedir}/build/logs/pmd.xml                       
+                --exclude tests,Zend                                             
+                --suffixes php" />                                               
+        </exec>                                                                  
+    </target>                                                                    
+                                                                                 
+    <target name="phpcpd"                                                        
+            description="Generate pmd-cpd.xml using PHPCPD">                     
+        <exec executable="phpcpd" failonerror="false">                           
+            <arg line="--log-pmd ${basedir}/build/logs/pmd-cpd.xml               
+            --exclude ${basedir}/library/Zend                                    
+            ${basedir}/application ${basedir}/library" />                        
+        </exec>                                                                  
+    </target>                                           
+
+    <target name="phploc"                                                        
+            description="Generate phploc.xml">                                   
+        <exec dir="${basedir}" executable="phploc" failonerror="false">          
+            <arg line="--log-xml ${basedir}/build/logs/phploc.xml                
+                --log-csv ${basedir}/build/logs/phploc.csv                       
+                --exclude ${basedir}/library/Zend                                
+                ${basedir}/application ${basedir}/library" />                    
+        </exec>                                                                  
+    </target>                                                                    
+                                                                                 
+    <target name="phpcs"                                                         
+            description="Generate checkstyle.xml using PHP_CodeSniffer">         
+         <exec executable="phpcs" output="/dev/null">                            
+            <arg line="--report=full                                             
+                --report-file=${basedir}/build/logs/phpcs.txt                    
+                --standard=Zend                                                  
+                --ignore=*/Zend/*                                                
+                ${basedir}/application ${basedir}/library" />                    
+        </exec>                                                                  
+    </target>                                                                    
+                                                                                 
+    <target name="phpdoc"                                                        
+            description="Generate API documentation using phpDocumentor">        
+        <exec executable="phpdoc" failonerror="false">                           
+            <arg line="--directory ${basedir},${basedir}/library                 
+                --ignore ${basedir}/tests, ${basedir}/library/Zend               
+                --target ${basedir}/build/phpdoc" />                             
+        </exec>                                                                  
+    </target>                                                                    
+                                                                                 
+    <target name="docblox"                                                       
+            description="Generate API documentation using DocBlox">              
+        <exec executable="docblox" failonerror="false">                          
+            <arg line="--directory ${basedir}/application,${basedir}/library     
+                --ignore tests,Zend                                              
+                --target ${basedir}/build/docblox                                
+                --title '${ant.project.name}'" />                                
+        </exec>                                                                  
+    </target>                                                                    
+                                                                                 
+    <target name="phpcb"                                                         
+            description="Aggregate tool output with PHP_CodeBrowser">            
+        <exec executable="phpcb">                                                
+            <arg line="--log ${basedir}/build/logs                               
+            --source ${appsource}                                                
+            --output ${basedir}/build/code-browser" />                           
+        </exec>                                                                  
+    </target>                                           
+
+    <target name="build"                                                         
+        depends="configure,preparation,pdepend,phpcs,test"                       
+        description="Run build all"/>                                            
+                                                                                 
+    <!-- this does not work at this time -->                                     
+    <!--                                                                         
+    <target name="syntax">                                                       
+        <exec executable="find">                                                 
+            <arg line="-type f -name '*.php' -print0 -exec php -l {}\; "/>       
+        </exec>                                                                  
+    </target>                                                                    
+    -->                                                                          
+                                                                                 
+    <target name="push">                                                         
+        <exec executable="bash">                                                 
+            <arg line="upload.sh"/>                                              
+        </exec>                                                                  
+    </target>                                                                    
+</project>                                               
+
+
+
+
+
+
+
+
+

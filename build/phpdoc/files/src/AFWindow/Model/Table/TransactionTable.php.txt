@@ -1,0 +1,32 @@
+<?php
+
+namespace AFWindow\Model\Table;
+
+use Zend\ServiceManager\ServiceLocatorAwareInterface;
+use Zend\ServiceManager\ServiceLocatorInterface;
+
+class TransactionTable
+{
+    protected $serviceLocator;
+
+    public function __construct()
+    {}
+
+    public function getTransactionByMerchantId($id) 
+    {
+        if(($rs = fopen(__DIR__ . "/../../../../../../data/csv/data.csv", "r")) 
+            !== false) {
+            $rows = array(); 
+            while(($data = fgetcsv($rs, 1000, ";")) !== false) {
+                if($id == $data[0]) {
+                    $rows[] = $data; 
+                }
+            }
+
+            return $rows;
+        }else{
+            throw new \Exception('"data.csv" file not found');
+        }
+    }    
+}
+

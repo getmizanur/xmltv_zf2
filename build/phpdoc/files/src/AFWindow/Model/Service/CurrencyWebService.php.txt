@@ -1,0 +1,68 @@
+<?php
+
+namespace AFWindow\Model\Service;
+
+use Zend\InputFilter\Factory;
+
+class CurrencyWebService extends AbstractService
+{
+    public function getExchangeRate($currency)
+    {
+        $sm = $this->getServiceLocator();
+
+        $currencyRateOptions = $sm->get('AFWindowOptions')->getCurrencyRateOptions();
+        $baseCurrency = $currencyRateOptions->getBaseCurrency();
+        $currencies = $currencyRateOptions->getCurrencies();
+
+        $factory = new Factory();  
+        $inputFilter = $factory->createInputFilter(array (
+            'currency' => array (   
+                'name' => 'currency',  
+                'required' => true,             
+                'filters' => array (            
+                    array ('name' => 'StripTags'),  
+                    array ('name' => 'StringTrim'), 
+                    array ('name' => 'HtmlEntities')
+                ),                 
+                'validators' => array (         
+                    array ('name' => 'not_empty'),  
+                    array (        
+                        'name' => 'in_array',           
+                        'options' => array (            
+                            'haystack' => $currencies
+                        )
+                    )
+                )
+            ),
+        ));
+
+        $inputFilter->setData(array('currency' => $currency));
+        if(!$inputFilter->isValid()) {
+            throw new \Exception("Invalid currency code");
+        }
+
+        $url = sprintf(
+            'http://rate-exchange.appspot.com/currency?from=%s&to=%s',
+            $baseCurrency[0], $currency
+        );
+        
+        $content = @file_get_contents($url);
+        if($this->isJson($content)) {
+            if($baseCurrency[0] != $currency) {
+                $data = json_decode($content, true);
+                return $data['rate'];
+            }else{
+                return 0;
+            }
+        }else{
+            throw new \Exception("Invalid json string");
+        }
+    }
+
+    private function isJson($string)
+    {
+        json_decode($string);
+        return (json_last_error() == JSON_ERROR_NONE);
+    }
+}
+

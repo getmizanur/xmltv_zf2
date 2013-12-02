@@ -1,0 +1,92 @@
+.accordion-group {
+    background: #e7f0f7;
+}
+.icon-home {
+    border-radius: 5px 5px 5px 5px;
+    padding:12px 8px 12px 8px;
+    margin-top:-1px;
+    color: #FFFFFF;
+    /*line-height: 33px;*/
+    text-align: center;
+    /*width: 50px;*/
+    width:57px;
+    background: #0061AC;
+}
+.icon-header {
+    padding:12px 8px 12px 12px;
+    margin:0px;
+    /*line-height: 33px;*/
+    text-align: center;
+    /*width: 50px;*/
+}
+
+.icon-header-title {
+    padding:12px 8px 12px 12px;
+    margin:0px;
+    font-weight:bold;
+    font-size:100%;
+    color:black;
+    /*line-height: 33px;*/
+    text-align: center;
+    /*width: 50px;*/
+}
+
+
+.title {
+    padding:12px 12px 12px 8px;
+}
+.accordion-heading > a{
+   white-space:nowrap; 
+    /*width:8em; */
+    /*overflow:hidden;*/
+    text-overflow:ellipsis;
+}
+.accordion-heading > span{
+    /*margin-right:20px;*/
+    /*margin-top:-28px;*/
+}
+.title {
+    padding-left: 24px;
+}
+
+input .error {
+    border: 1px solid red;
+}
+
+table {
+    position: relative;
+    top: -4px;
+    left: -4px;
+    padding-top: 12px;
+    width: 100%;
+    background: #e7f0f7;
+}
+table th, table td {
+    margin: 0;
+    padding: 8px 20px;
+    text-align: left;
+    border-bottom: 1px solid #aecce4;
+}
+table caption {
+    margin: 0;
+    padding: 8px 20px;
+    text-align: left;
+    background: #e7f0f7;
+}
+table .required {
+    font-weight: bold;
+}
+table .table-caption {
+    text-align: left;
+}
+table .name {
+}
+table .type {
+}
+table .description {
+}
+table .table-query {
+}
+span .header {
+    background: #fff;
+}

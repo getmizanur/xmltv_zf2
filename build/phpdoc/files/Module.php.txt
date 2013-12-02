@@ -1,0 +1,73 @@
+<?php
+
+namespace AFWindow;
+
+use AFWindow\Model\Table;
+use Zend\ModuleManager\ModuleManager;
+use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
+use Zend\ModuleManager\Feature\ConfigProviderInterface;
+use Zend\ModuleManager\Feature\ConsoleUsageProviderInterface;
+use Zend\ModuleManager\Feature\ServiceProviderInterface;
+use Zend\Console\Adapter\AdapterInterface;
+use Zend\Db\Adapter\Adapter as DbAdapter;
+
+class Module implements 
+    AutoloaderProviderInterface, 
+    ConfigProviderInterface,
+    ConsoleUsageProviderInterface, 
+    ServiceProviderInterface
+{
+    public function getAutoloaderConfig()
+    {
+        return array(
+            'Zend\Loader\ClassMapAutoloader' => array(
+                __DIR__ . '/autoload_classmap.php',
+            ),
+            'Zend\Loader\StandardAutoloader' => array(
+                'namespaces' => array(
+                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
+                ),
+            ),
+        );
+    }
+
+    public function getConfig()
+    {
+        return include __DIR__ . '/config/module.config.php';
+    }
+    
+    public function getConsoleUsage(AdapterInterface $console)                                                                   {   
+        return array(          
+            'Use --transaction-report to list merchant transactions for a given merchant id',
+        );
+    }
+    
+    public function getServiceConfig()                                                                                       
+    {
+        return array(
+            'invokables' => array(
+                'CurrencyWebService' => 'AFWindow\Model\Service\CurrencyWebService'
+            ),
+            'factories' => array(               
+                'AFWindowModuleOptions' => function($sm) {
+                    $config = $sm->get('Config');   
+                    return new Options\ModuleOptions($config['afw_options']);
+                },             
+                'DbAdapter' => function($sm) {  
+                    $config = $sm->get('config');   
+                    $config = $config['db_adapter_manager']['afwindow']['afwindow'];
+                    $dbAdapter = new DbAdapter($config);
+                    return $dbAdapter;              
+                },             
+                'TransactionTable' => function($sm) { 
+                    return new Table\TransactionTable();
+                },
+            ),
+            'aliases' => array(
+                'AFWindowOptions' => 'AFWindowModuleOptions',
+                'TransactionModel' => 'TransactionTable', 
+            )
+        );
+    }   
+}
+
