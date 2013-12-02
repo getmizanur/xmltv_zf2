@@ -108,7 +108,6 @@ class EpgTable extends AbstractTable
         $lastInsert = null;
         if ($id == 0) {
             $this->insert($data);
-            return "test";
             $lastInsert = $this->getLastGeneratedValue();
         } elseif ($this->getEpgByKeyId($id)) {
             $this->update(
