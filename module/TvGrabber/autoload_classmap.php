@@ -3,6 +3,7 @@
 return array(
   'TvGrabber\Controller\EbsController'       => __DIR__ . '/src/TvGrabber/Controller/EbsController.php',
   'TvGrabber\Controller\HCController'        => __DIR__ . '/src/TvGrabber/Controller/HCController.php',
+  'TvGrabber\Controller\BoxNationontroller'  => __DIR__ . '/src/TvGrabber/Controller/BoxNationController.php',
   'TvGrabber\Model\Entity\LiveStream'        => __DIR__ . '/src/TvGrabber/Model/Entity/LiveStream.php',
   'TvGrabber\Model\Entity\File'              => __DIR__ . '/src/TvGrabber/Model/Entity/File.php',
   'TvGrabber\Model\Entity\Epg'               => __DIR__ . '/src/TvGrabber/Model/Entity/Epg.php',
@@ -10,6 +11,7 @@ return array(
   'TvGrabber\Model\Table\EpgTable'           => __DIR__ . '/src/TvGrabber/Model/Table/EpgTable.php',
   'TvGrabber\Model\Table\FileTable'          => __DIR__ . '/src/TvGrabber/Model/Table/FileTable.php',
   'TvGrabber\Model\Table\LiveStreamsTable'   => __DIR__ . '/src/TvGrabber/Model/Table/LiveStreamsTable.php',
+  'TvGrabber\Model\Service\ZeusService'      => __DIR__ . '/src/TvGrabber/Model/Service/ZeusService.php',
   'TvGrabber\Model\Service\XmltvService'     => __DIR__ . '/src/TvGrabber/Model/Service/XmtvService.php',
   'TvGrabber\Model\Service\TvAnytimeService' => __DIR__ . '/src/TvGrabber/Model/Service/TvAnytimeService.php',
   'TvGrabber\Model\Service\AbstractService'  => __DIR__ . '/src/TvGrabber/Model/Service/AbstractService.php',

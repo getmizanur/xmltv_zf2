@@ -14,6 +14,7 @@ return array(
         'invokables' => array( 
             'ebs' => 'TvGrabber\Controller\EbsController',
             'hc' => 'TvGrabber\Controller\HCController',
+            'bxn' => 'TvGrabber\Controller\BoxNationController',
         ),                     
     ),
     'console' => array(        
@@ -37,6 +38,15 @@ return array(
                         ),     
                     ),
                 ), 
+                'import-bxn' => array(         
+                    'options' => array(             
+                        'route' => '--import-box-nation',
+                        'defaults' => array(            
+                            'controller' => 'bxn',    
+                            'action'     => 'index',        
+                        ),     
+                    ),
+                ),
             ),                 
         ),
     ),

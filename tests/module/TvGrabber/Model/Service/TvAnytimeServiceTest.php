@@ -114,9 +114,9 @@ class TvAnytimeServiceTest extends AbstractHttpControllerTestCase
                         $epg->epgFile = $fileUri;
                         $epg->epgCreated = date('Y-m-d H:i:s');
 
-                        if($sm->get('EpgModel')->saveRow($epg)) {
-                            var_dump($fileUri);
-                        }
+                        //if($sm->get('EpgModel')->saveRow($epg)) {
+                            //var_dump($fileUri);
+                        //}
 
                         //var_dump($basicDescription);
                         //die();

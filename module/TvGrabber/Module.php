@@ -38,7 +38,8 @@ class Module implements
     public function getConsoleUsage(AdapterInterface $console){   
         return array(          
             'Use --import-from-ebs - import epg from EBS',
-            'Use --import-horse-and-country - import epg from EBS',
+            'Use --import-horse-and-country - import epg for "Horse and Country"',
+            'Use --import-box-nation - import epg for "Box Nation"',
         );
     }
     
@@ -47,7 +48,8 @@ class Module implements
         return array(
             'invokables' => array(
                 'XmltvService' => 'TvGrabber\Model\Service\XmltvService',
-                'TvAnytimeService' => 'TvGrabber\Model\Service\TvAnytimeService'
+                'TvAnytimeService' => 'TvGrabber\Model\Service\TvAnytimeService',
+                'ZeusService' => 'TvGrabber\Model\Service\ZeusService'
             ),
             'factories' => array(               
                 'EbsOptions' => function($sm) {
