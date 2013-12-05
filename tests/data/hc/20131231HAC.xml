@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TVAMain publisher="Horse and Country" publicationTime="2013-12-04T15:03:37+00:00" xmlns="urn:tva:metadata:2004">
+<ProgramDescription>
+     <ProgramInformationTable>
+          <ProgramInformation programId="2845">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Berkeley: A Country Estate</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Berkeley: A Country Estate</Title>
+               <EpisodeNumber>14</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">In this episode we explore the beautiful formal gardens within the Berkeley estate and meet the head gardener&#46; &#40;Ep 14&#47;24&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="2846">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Berkeley: A Country Estate</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Berkeley: A Country Estate</Title>
+               <EpisodeNumber>15</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">In this episode we learn about the herds of deer who live on the estate and meet some exciting butterflies such as the rare owl butterfly in the butterfly farm&#46; &#40;Ep 15&#47;24&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3344">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">The Saddle Club</Title>
+               <SeasonNumber>1</SeasonNumber>
+               <Title xml:lang="GB" type="EpisodeTitle">The Saddle Club</Title>
+               <EpisodeNumber>14</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Red&#39;s cousin Liam causes disruption at Pine Hollow and Lisa is in grave danger from acute appendicitis&#46; &#40;Ep 14&#47;26&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3345">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">The Saddle Club</Title>
+               <SeasonNumber>1</SeasonNumber>
+               <Title xml:lang="GB" type="EpisodeTitle">The Saddle Club</Title>
+               <EpisodeNumber>15</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">The birth of Delilah&#39;s foal helps the Saddle Club girls solve their differences&#46; &#40;Ep 15&#47;26&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6311">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Chris Cox Horsemanship</Title>
+               <SeasonNumber>2</SeasonNumber>
+               <EpisodeNumber>2</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Chris shows you how to work with your horse to achieve genuine softness&#46; &#40;S2&#44; Ep 2&#47;13&#41;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2012</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="5886">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Equitrekking</Title>
+               <SeasonNumber>3</SeasonNumber>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Southern Spain: In this episode we travel to the Alpujarras in the Sierra Nevada Mountains&#44; historic haciendas in Seville&#39;s countryside and the beaches of Do&#241;ana National Park&#46; &#40;S3&#44; Ep 1&#47;6&#41;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2012</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6801">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Tina Cook</Title>
+               <Synopsis xml:lang="GB" length="short">H&#38;C take a look at the day to day routine of Olympic Silver Medalist Tina Cook as she juggles family life with 4&#42; eventing and training racehorses with her brother Nick&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6871">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Trevor Breen</Title>
+               <Synopsis xml:lang="GB" length="short">Catch up with Irish international showjumper Trevor Breen as he talks about his hopes for the future with his top competition horses&#44; his business and his new baby girl&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6872">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">H&#38;C Masterclass: Trevor Breen</Title>
+               <Synopsis xml:lang="GB" length="short">Related distances&#46; Showjumper Trevor Breen explains how to ride different related distances with a simple exercise&#44; usable in multiple situations at any level&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6889">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Backstage Pass with Monty Roberts</Title>
+               <SeasonNumber>4</SeasonNumber>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Grandpa is afraid of everything&#46; Watch him overcome his fear and learn to trust Monty Roberts&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6923">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Natasha Baker</Title>
+               <Synopsis xml:lang="GB" length="short">H&#38;C meets double Gold Paralympic dressage rider Natasha Baker at her home to find out exactly what it takes to get to a Paralympic Event&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6935">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Parelli: Scale of Training Pt&#46; 2</Title>
+               <Synopsis xml:lang="GB" length="short">Together Christoph Hess &#38; Linda Parelli explain the similarities between classical dressage and natural horsemanship and how to train a happy&#44; healthy dressage horse&#46; Pt&#46; 2</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6961">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Louise Bell</Title>
+               <Synopsis xml:lang="GB" length="short">H&#38;C takes a look round the yard and into the life of Louise Bell one of the most successful lady riders to grace the world of working hunter competitions&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6951">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Petplan Masterclass with Lucinda</Title>
+               <EpisodeNumber>2</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Lucinda Green coaches differing levels of horses and riders over one of the most technical aspects on a cross country course &#45; the skinny fence&#46; Ep 2&#47;6</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6995">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Richard Davison</Title>
+               <Synopsis xml:lang="GB" length="short">In this episode of H&#38;C&#39;s popular series&#44; we visit the home of Olympic dressage rider Richard Davison&#46; We meet his team and horses and take a look round his Staffordshire home&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7050">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">FEI Europeans 2013: Team Jumping</Title>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">The FEI European Championships are biennial events&#44; attracting riders and national teams from more than 35 European countries&#46; Catch the fast paced FEI European 2013: Jumping&#46; Ep 1&#47;2</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7092">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Jock Paget</Title>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Top event rider Jock Paget shows us around his Surrey yard and tells us how he went from bricklayer to Badminton and Burghley winner&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7077">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Wilf Bowman Ripley</Title>
+               <Synopsis xml:lang="GB" length="short">Top carriage driver Wilf Bowman Ripley&#44; takes us on a tour of his yard&#44; introducing us to his team and the horses that have taken him to the top of his sport&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7161">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Country Dreams</Title>
+               <SeasonNumber>2</SeasonNumber>
+               <EpisodeNumber>8</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Provence&#44; France&#46; Val Joanis has created her very own 18th century garden&#46; The popular wine produced by her vineyards allow her the time to cultivate her very own century &#39;kitchen garden&#39;&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7225">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Geoff Billington</Title>
+               <Synopsis xml:lang="GB" length="short">H&#38;C visits the Cheshire yard of popular showjumper Geoff Billington&#44; who reflects on 30 years of success on the showjumping circuit&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7231">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Rudall&#39;s Round&#45;Up: 2013</Title>
+               <Synopsis xml:lang="GB" length="short">Jenny Rudall presents her favourite moments from 2013&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7233">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">GCT 2013: Doha</Title>
+               <Synopsis xml:lang="GB" length="short">Catch the showjumping action from the Global Champions Tour 2013 with the leg from Doha&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT02H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7272">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Sportjumping at Quainton</Title>
+               <Synopsis xml:lang="GB" length="short">Highlights from the Sportjumping&#174; betting event at Quintessential Quainton in Buckinghamshire&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7278">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Andrew Gould</Title>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">H&#38;C visits the Sussex yard of top dressage rider and trainer Andrew Gould to meet his family and horses&#44; and to learn the secrets of his success&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7344">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">The FEI Awards 2013</Title>
+               <Synopsis xml:lang="GB" length="short">Five prestigious awards&#44; an IOC&#45;member princess&#44; an Olympic double gold medallist and red&#45;carpet treatment for the winners who flew from all different continents of the world to be there&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3757">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Teleshopping</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Teleshopping</Title>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short"></Synopsis>
+               <Language>GB</Language>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6247">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Teleshopping</Title>
+               <Synopsis xml:lang="GB" length="short"></Synopsis>
+               <Language>GB</Language>
+               <Duration>PT04H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+     </ProgramInformationTable>
+     <GroupInformationTable>
+     </GroupInformationTable>
+     <ProgramLocationTable>
+          <Schedule serviceIDRef="HAC" start="2013&#45;12&#45;31T06:00:00&#43;00:00" end="2014&#45;01&#45;01T06:00:00&#43;00:00">
+               <ScheduleEvent>
+    <Program crid="3344"/>
+                    <InstanceMetadataId>imi:00090198</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T06:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3345"/>
+                    <InstanceMetadataId>imi:00090199</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T06:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6247"/>
+                    <InstanceMetadataId>imi:00080169</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T07:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT04H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="2845"/>
+                    <InstanceMetadataId>imi:00090227</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T11:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="2846"/>
+                    <InstanceMetadataId>imi:00090228</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T11:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6889"/>
+                    <InstanceMetadataId>imi:00090240</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T12:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7231"/>
+                    <InstanceMetadataId>imi:00090238</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T12:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6871"/>
+                    <InstanceMetadataId>imi:00090279</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T13:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6872"/>
+                    <InstanceMetadataId>imi:00090285</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T13:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6951"/>
+                    <InstanceMetadataId>imi:00090291</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T14:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="5886"/>
+                    <InstanceMetadataId>imi:00090297</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T14:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7050"/>
+                    <InstanceMetadataId>imi:00090303</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T15:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3344"/>
+                    <InstanceMetadataId>imi:00090212</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T16:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3345"/>
+                    <InstanceMetadataId>imi:00090213</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T16:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6889"/>
+                    <InstanceMetadataId>imi:00090310</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T17:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7231"/>
+                    <InstanceMetadataId>imi:00090311</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T17:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="5886"/>
+                    <InstanceMetadataId>imi:00090321</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T18:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6935"/>
+                    <InstanceMetadataId>imi:00090329</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T18:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6311"/>
+                    <InstanceMetadataId>imi:00090336</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T19:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7344"/>
+                    <InstanceMetadataId>imi:00091463</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T19:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7231"/>
+                    <InstanceMetadataId>imi:00090349</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T20:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7161"/>
+                    <InstanceMetadataId>imi:00090350</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T20:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7233"/>
+                    <InstanceMetadataId>imi:00090353</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T21:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT02H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7278"/>
+                    <InstanceMetadataId>imi:00090354</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T23:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7231"/>
+                    <InstanceMetadataId>imi:00090331</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;31T23:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3757"/>
+                    <InstanceMetadataId>imi:00080258</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T00:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6801"/>
+                    <InstanceMetadataId>imi:00090385</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T01:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6871"/>
+                    <InstanceMetadataId>imi:00090386</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T01:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6923"/>
+                    <InstanceMetadataId>imi:00090387</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T02:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6961"/>
+                    <InstanceMetadataId>imi:00090388</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T02:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6995"/>
+                    <InstanceMetadataId>imi:00090389</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T03:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7092"/>
+                    <InstanceMetadataId>imi:00090390</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T03:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7077"/>
+                    <InstanceMetadataId>imi:00090391</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T04:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7225"/>
+                    <InstanceMetadataId>imi:00090392</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T04:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7272"/>
+                    <InstanceMetadataId>imi:00090393</InstanceMetadataId>
+                    <PublishedStartTime>2014&#45;01&#45;01T05:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+          </Schedule>
+     </ProgramLocationTable>
+     <CreditsInformationTable>
+     </CreditsInformationTable>
+</ProgramDescription>
+</TVAMain>

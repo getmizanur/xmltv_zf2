@@ -6,9 +6,11 @@ require_once __DIR__ . '/../init_autoloader.php';
 
 use Zend\Loader\StandardAutoloader;
 
-$autoloader = new StandardAutoloader(array('autoregister_zf' => true));
+$autoloader = new StandardAutoloader();
 $autoloader->registerNamespace('ModuleTest', __DIR__ . '/module/');
-//$autoloader->registerNamespace('XMLTV', __DIR__ . '/../module/XMLTV/src/XMLTV');
-$autoloader->registerNamespace('Zend', __DIR__ . '/../vendor/ZendX');
-//$autoloader->registerNamespace('Zend', __DIR__ . '/../vendor/ZF2/library/');
+$autoloader->registerNamespace('TvGrabber', __DIR__ . '/../module/TvGrabber/src/TvGrabber');
+//$autoloader->registerNamespace('Mm', __DIR__ . '/../vendor/');
+$autoloader->registerNamespace('Zend', __DIR__ . '/../vendor/ZendX/');
+//$autoloader->registerNamespace('Zend', __DIR__ . '/../vendor/zendframework/zendframework/library/');
 $autoloader->register();
+

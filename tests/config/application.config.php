@@ -1,7 +1,7 @@
 <?php
 return array(
     'modules' => array(
-        'XMLTV',
+        'TvGrabber',
     ),
     'module_listener_options' => array( 
         'config_cache_enabled' => false,
@@ -10,7 +10,7 @@ return array(
             __DIR__ . '/../../config/autoload/development.config.php',
         ),
         'module_paths' => array(
-            'XMLTV' => __DIR__ . '/../../module/XMLTV',
+            'TvGrabber' => __DIR__ . '/../../module/TvGrabber',
         ),
     ),
 );

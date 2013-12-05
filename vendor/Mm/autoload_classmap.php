@@ -30,6 +30,8 @@ return array(
   'Mm\ModuleManager\Listener\Environment\SapiListener'           => __DIR__ . '/ModuleManager/Listener/Environment/SapiListener.php',
   'Mm\ModuleManager\Listener\AuthManager'                        => __DIR__ . '/ModuleManager/Listener/AuthManager.php',
   'Mm\ModuleManager\Listener\Exception\InvalidListenerException' => __DIR__ . '/ModuleManager/Listener/Exception/InvalidListenerException.php',
+  'Mm\Util\DbUtil'                                               => __DIR__ . '/Util/DbUtil.php',
+  'Mm\Util\StringUtil'                                           => __DIR__ . '/Util/StringUtil.php',
   'Mm\View\Helper\FlashMessenger'                                => __DIR__ . '/View/Helper/FlashMessenger.php',
   'Mm\View\Helper\IoDocs'                                        => __DIR__ . '/View/Helper/IoDocs.php',
 );

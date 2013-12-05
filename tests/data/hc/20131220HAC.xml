@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TVAMain publisher="Horse and Country" publicationTime="2013-12-04T15:03:37+00:00" xmlns="urn:tva:metadata:2004">
+<ProgramDescription>
+     <ProgramInformationTable>
+          <ProgramInformation programId="2838">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Berkeley: A Country Estate</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Berkeley: A Country Estate</Title>
+               <EpisodeNumber>6</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Farming at Berkeley&#46; With up to 30 farms on the estate we meet some of the farmers and find out how everything works&#46; &#40;Ep 6&#47;24&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="2839">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Berkeley: A Country Estate</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Berkeley: A Country Estate</Title>
+               <EpisodeNumber>7</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Making enough money to run the Berkeley estate is getting tricky with farming not making as much as it once did&#46; The creation of the Berkeley brand and other ideas are on the agenda&#46; &#40;Ep 7&#47;24&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3164">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Carl Hester&#39;s Fantastic Elastic</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Carl Hester&#39;s Fantastic Elastic</Title>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Top dressage rider Carl Hester hosts a masterclass with some of his horses at Crofton Manor Equestrian centre&#46; The first of two programmes&#46; &#40;Ep 1&#47;2&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3165">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Carl Hester&#39;s Fantastic Elastic</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Carl Hester&#39;s Fantastic Elastic</Title>
+               <EpisodeNumber>2</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Top dressage rider Carl Hester hosts a masterclass with some of his horses at Crofton Manor Equestrian centre&#46; The second of two programmes&#46; &#40;Ep 2&#47;2&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3331">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">The Saddle Club</Title>
+               <SeasonNumber>1</SeasonNumber>
+               <Title xml:lang="GB" type="EpisodeTitle">The Saddle Club</Title>
+               <EpisodeNumber>3</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">On the trail ride&#44; the Saddle Club and Veronica meet Phil Marsten&#44; who pays more attention to Stevie than Veronica&#46; When Cobalt bolts&#44; Veronica is left alone&#44; unconscious&#46; &#40;Ep 3&#47;26&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3332">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">The Saddle Club</Title>
+               <SeasonNumber>1</SeasonNumber>
+               <Title xml:lang="GB" type="EpisodeTitle">The Saddle Club</Title>
+               <EpisodeNumber>4</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Stevie and Phil find Veronica just as a wild dog closes in on her&#46;  At Pine Hollow Kristi tries to read to herself but Melanie and Ashly spoil her plans&#46; &#40;Ep 4&#47;26&#41;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6285">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Unstable</Title>
+               <EpisodeNumber>7</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Courtney the new boarder moves in&#46; Tammy and Allie struggle with keeping the barn together without Megan&#46; Megan visits her friend in Alberta looking for a new job and a fresh start&#46; &#40;Ep 7&#47;12&#41;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2012</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="5611">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Dean Dibsdall: Model Farrier</Title>
+               <Synopsis xml:lang="GB" length="short">H&#38;C&#39;s cameras follow Dean Dibsdall&#44; who combines his two careers of farriery and being a part&#45;time model and TV star&#46; Find out how Dean became a farrier&#44; and what his daily life entails&#46;</Synopsis>
+               <Language>GB</Language>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6575">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Black Caviar: Set Before A Queen</Title>
+               <Synopsis xml:lang="GB" length="short">Black Caviar took on Europe&#39;s best at Royal Ascot in front of the Queen and won&#33; She remains undefeated after 22 races&#46; This episode brings us the fascinating inside story about Black Caviar&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2012</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6634">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">The Ride of The Peacemaker</Title>
+               <EpisodeNumber>5</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">It&#39;s day 7 and the horses have been working hard&#46; Barry and Joe are both exhausted after a total of 77 hours in the saddle&#46; See how Barry and Joe get on&#46; &#40;Ep 5&#47;6&#41;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2012</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6719">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Dean Dibsdall: Polocrosse Player</Title>
+               <Synopsis xml:lang="GB" length="short">H&#38;C catches up with Model Farrier&#44; Dean Dibsdall&#44; as he gets a lesson in playing polocrosse from top British coach&#44; Simon Shearing&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2012</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6804">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Equitrekking</Title>
+               <SeasonNumber>4</SeasonNumber>
+               <EpisodeNumber>2</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Jordan: Wadi Rum&#44; Aqaba &#38; Jerash&#46; Host Darley Newman travels throughout the small&#44; Middle Eastern country of Jordan to experience culture&#44; history and adventure&#46; &#40;S4&#44; Ep 2&#47;9&#41;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6876">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Parelli Special: Game of Contact</Title>
+               <Synopsis xml:lang="GB" length="short">Parelli Special: Game of Contact&#46; Discover the secret of sharing how to get horses to willingly accept bit contact with Linda Parelli&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6959">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Dean Dibsdall: Reining Man</Title>
+               <Synopsis xml:lang="GB" length="short">Model farrier Dean Dibsdall gains an introduction to reining and learns the skills needed to go up in front of a judge at the end of the show&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6951">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Petplan Masterclass with Lucinda</Title>
+               <EpisodeNumber>2</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">Lucinda Green coaches differing levels of horses and riders over one of the most technical aspects on a cross country course &#45; the skinny fence&#46; Ep 2&#47;6</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6995">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Yard Talk: Richard Davison</Title>
+               <Synopsis xml:lang="GB" length="short">In this episode of H&#38;C&#39;s popular series&#44; we visit the home of Olympic dressage rider Richard Davison&#46; We meet his team and horses and take a look round his Staffordshire home&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7112">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Farming Sunday</Title>
+               <SeasonNumber>14</SeasonNumber>
+               <EpisodeNumber>4</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short">We take a look at the new Fendt 500 tractor&#44; sheep farming in Derbyshire and respiratory disease in young calves&#46; &#40;Ep 4&#47;5&#41;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7231">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Rudall&#39;s Round&#45;Up: 2013</Title>
+               <Synopsis xml:lang="GB" length="short">Jenny Rudall presents her favourite moments from 2013&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT00H30M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7234">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Bury Farm Show 2013</Title>
+               <Synopsis xml:lang="GB" length="short">Catch all the action from the British Showjumping All Star Show&#44; Bury Farm&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7273">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">The Way of The Horse 2012</Title>
+               <Synopsis xml:lang="GB" length="short">The Way of The Horse brings 3 of Australia&#39;s most talented horsemen together&#44; they display admirable horsemanship skills and techniques&#44; which did not make it easy for our judges&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2012</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="7272">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Sportjumping at Quainton</Title>
+               <Synopsis xml:lang="GB" length="short">Highlights from the Sportjumping&#174; betting event at Quintessential Quainton in Buckinghamshire&#46;</Synopsis>
+               <Language>GB</Language>
+               <ReleaseInformation>
+                    <ReleaseDate>
+                         <Year>2013</Year>
+                    </ReleaseDate>
+               </ReleaseInformation>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="3757">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Teleshopping</Title>
+               <Title xml:lang="GB" type="EpisodeTitle">Teleshopping</Title>
+               <EpisodeNumber>1</EpisodeNumber>
+               <Synopsis xml:lang="GB" length="short"></Synopsis>
+               <Language>GB</Language>
+               <Duration>PT01H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+          <ProgramInformation programId="6247">
+          <BasicDescription>
+               <Title xml:lang="GB" type="main">Teleshopping</Title>
+               <Synopsis xml:lang="GB" length="short"></Synopsis>
+               <Language>GB</Language>
+               <Duration>PT04H00M</Duration>
+          </BasicDescription>
+          </ProgramInformation>
+     </ProgramInformationTable>
+     <GroupInformationTable>
+     </GroupInformationTable>
+     <ProgramLocationTable>
+          <Schedule serviceIDRef="HAC" start="2013&#45;12&#45;20T06:00:00&#43;00:00" end="2013&#45;12&#45;21T06:00:00&#43;00:00">
+               <ScheduleEvent>
+    <Program crid="3331"/>
+                    <InstanceMetadataId>imi:00088465</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T06:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3332"/>
+                    <InstanceMetadataId>imi:00088466</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T06:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6247"/>
+                    <InstanceMetadataId>imi:00080158</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T07:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT04H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="2838"/>
+                    <InstanceMetadataId>imi:00088503</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T11:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="2839"/>
+                    <InstanceMetadataId>imi:00088504</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T11:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7231"/>
+                    <InstanceMetadataId>imi:00088513</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T12:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6285"/>
+                    <InstanceMetadataId>imi:00088522</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T12:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7112"/>
+                    <InstanceMetadataId>imi:00088537</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T13:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6951"/>
+                    <InstanceMetadataId>imi:00088554</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T13:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6995"/>
+                    <InstanceMetadataId>imi:00088550</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T14:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6804"/>
+                    <InstanceMetadataId>imi:00088561</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T14:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6634"/>
+                    <InstanceMetadataId>imi:00088568</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T15:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3331"/>
+                    <InstanceMetadataId>imi:00088479</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T16:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3332"/>
+                    <InstanceMetadataId>imi:00088480</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T16:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7231"/>
+                    <InstanceMetadataId>imi:00088575</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T17:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6285"/>
+                    <InstanceMetadataId>imi:00088529</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T17:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6804"/>
+                    <InstanceMetadataId>imi:00088589</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T18:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6876"/>
+                    <InstanceMetadataId>imi:00088647</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T18:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7234"/>
+                    <InstanceMetadataId>imi:00089311</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T19:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7231"/>
+                    <InstanceMetadataId>imi:00088668</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T20:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6575"/>
+                    <InstanceMetadataId>imi:00088685</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T20:30:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT00H30M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7272"/>
+                    <InstanceMetadataId>imi:00088686</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T21:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="7273"/>
+                    <InstanceMetadataId>imi:00088687</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T22:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6634"/>
+                    <InstanceMetadataId>imi:00088654</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;20T23:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3757"/>
+                    <InstanceMetadataId>imi:00080247</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;21T00:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="5611"/>
+                    <InstanceMetadataId>imi:00088622</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;21T01:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6719"/>
+                    <InstanceMetadataId>imi:00088623</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;21T02:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="6959"/>
+                    <InstanceMetadataId>imi:00088624</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;21T03:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3164"/>
+                    <InstanceMetadataId>imi:00088625</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;21T04:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+               <ScheduleEvent>
+    <Program crid="3165"/>
+                    <InstanceMetadataId>imi:00088626</InstanceMetadataId>
+                    <PublishedStartTime>2013&#45;12&#45;21T05:00:00&#43;00:00</PublishedStartTime>
+                    <PublishedDuration>PT01H00M00S</PublishedDuration>
+                    <FirstShowing>false</FirstShowing>
+                    <LastShowing>false</LastShowing>
+               </ScheduleEvent>
+          </Schedule>
+     </ProgramLocationTable>
+     <CreditsInformationTable>
+     </CreditsInformationTable>
+</ProgramDescription>
+</TVAMain>

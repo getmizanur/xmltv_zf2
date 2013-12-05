@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TVAMain xml:lang="EN" publisher="Broadcasting DataServices Limited" publicationTime="2013-11-07T04:02:57+00:00" version="217" xmlns="urn:tva:metadata:2010" xmlns:mpeg7="urn:tva:mpeg7:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="urn:tva:metadata:2010 http://www.broadcastingdata.com/dataimport/tva/tva1.6/tva.xsd">
+  <ProgramDescription>
+    <ProgramInformationTable>
+      <ProgramInformation programId="crid://bds.tv/24648501">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of yesterday's racing action from Warwick, Nottingham and Kempton Park.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of yesterday's racing action from Warwick, Nottingham and Kempton Park.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/101435128">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Planet Turf</Title>
+          <Synopsis xml:lang="EN" length="short">Oli Bell and Claude Charlet look back on a spectacular month of racing, including the Arc de Triomphe and the Melbourne Cup.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">Oli Bell and Claude Charlet look back on a spectacular month of racing, including the Arc de Triomphe and the Melbourne Cup.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/83500185" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/5266813">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Live Racing from Musselburgh</Title>
+          <Synopsis xml:lang="EN" length="short">All the day's live racing action from Musselburgh.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">All the day's live racing action from Musselburgh.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT04H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782123" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/21998408">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of all the day's racing action from Musselburgh.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of all the day's racing action from Musselburgh.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/22151793">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of all yesterday's racing action from Musselburgh.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of all yesterday's racing action from Musselburgh.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/32379865">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Mark Your Card</Title>
+          <Synopsis xml:lang="EN" length="short">The Racing UK team take an in-depth look at the day's racing.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">The Racing UK team take an in-depth look at the day's racing.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT01H00M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782204" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/47941844">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Live Racing</Title>
+          <Synopsis xml:lang="EN" length="short">All the day's live racing action from Sandown, Wincanton and Kelso.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">All the day's live racing action from Sandown, Wincanton and Kelso.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT04H30M</Duration>
+        </BasicDescription>
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/100258094">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of today's racing action from Wincanton, Kelso and Sandown.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of today's racing action from Wincanton, Kelso and Sandown.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/100258124">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of yesterday's racing action from Wincanton, Kelso and Sandown.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of yesterday's racing action from Wincanton, Kelso and Sandown.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/34134976">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Breakfast</Title>
+          <Synopsis xml:lang="EN" length="short">Join Racing Breakfast for all the latest news and features.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">Join Racing Breakfast for all the latest news and features.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/84091619" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/6136210">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Live Racing</Title>
+          <Synopsis xml:lang="EN" length="short">All the day's live racing action from Market Rasen and Auteuil, France.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">All the day's live racing action from Market Rasen and Auteuil, France.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT04H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782123" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/27315729">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of the day's racing action from Market Rasen.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of the day's racing action from Market Rasen.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/21998019">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of all yesterday's racing action from Market Rasen.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of all yesterday's racing action from Market Rasen.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/6093465">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Live Racing</Title>
+          <Synopsis xml:lang="EN" length="short">All the day's live racing action from Carlisle and Kempton.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">All the day's live racing action from Carlisle and Kempton.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT04H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782123" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/25068749">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of today's racing action from Carlisle and Kempton.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of today's racing action from Carlisle and Kempton.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/25195360">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of yesterday's racing action from Carlisle and Kempton.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of yesterday's racing action from Carlisle and Kempton.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/5239136">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Live Racing from Huntingdon</Title>
+          <Synopsis xml:lang="EN" length="short">All the day's live racing action from Huntingdon.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">All the day's live racing action from Huntingdon.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT04H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782123" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/21513032">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of all the day's racing action from Huntingdon.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of all the day's racing action from Huntingdon.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/21536656">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of all of yesterday's racing action from Huntingdon.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of all of yesterday's racing action from Huntingdon.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/99396774">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">This Racing Life</Title>
+          <Synopsis xml:lang="EN" length="short">The Racing UK's cameras take you behind the scenes for a unique insight into the British racing industry.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">The Racing UK's cameras take you behind the scenes for a unique insight into the British racing industry.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/48017057">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Live Racing</Title>
+          <Synopsis xml:lang="EN" length="short">All the day's live racing action from Exeter and Bangor.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">All the day's live racing action from Exeter and Bangor.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT04H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782123" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/5829217">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Live Evening Racing</Title>
+          <Synopsis xml:lang="EN" length="short">All the evening's live racing action from Kempton.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">All the evening's live racing action from Kempton.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT04H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782123" />
+      </ProgramInformation>
+      <ProgramInformation programId="crid://bds.tv/48017061">
+        <BasicDescription>
+          <Title xml:lang="EN" type="main">Racing Replay</Title>
+          <Synopsis xml:lang="EN" length="short">A round-up of today's action from Exeter, Bangor and Kempton.</Synopsis>
+          <Synopsis xml:lang="EN" length="long">A round-up of today's action from Exeter, Bangor and Kempton.</Synopsis>
+          <Genre href="urn:tva:metadata:cs:DVBgenre:2005:4.0.0.0">
+            <Name xml:lang="EN">Sports : sports (general)</Name>
+          </Genre>
+          <Language>EN</Language>
+          <Duration>PT02H30M</Duration>
+        </BasicDescription>
+        <MemberOf xsi:type="MemberOfType" crid="crid://bds.tv/48782137" />
+      </ProgramInformation>
+    </ProgramInformationTable>
+    <ProgramLocationTable>
+      <Schedule serviceIDRef="RacingUK" start="2013-11-07T00:00:00+00:00" end="2013-11-14T01:30:00+00:00">
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;365671432@2013-11-07T00:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T00:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;367320893@2013-11-07T01:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T01:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;367320894@2013-11-07T03:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T03:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;367320895@2013-11-07T04:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T04:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;367320896@2013-11-07T06:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T06:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;367320897@2013-11-07T07:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T07:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;367320898@2013-11-07T09:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T09:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/24648501" />
+          <ProgramURL>dvb://1.1.RacingUK;367320899@2013-11-07T10:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T10:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/101435128" />
+          <ProgramURL>dvb://1.1.RacingUK;369784177@2013-11-07T11:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T11:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/5266813" />
+          <ProgramURL>dvb://1.1.RacingUK;367320900@2013-11-07T12:30:00+00:00--PT03H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T12:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT03H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;365671443@2013-11-07T16:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T16:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367320901@2013-11-07T17:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T17:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367320902@2013-11-07T19:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T19:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367320903@2013-11-07T20:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T20:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367320904@2013-11-07T22:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T22:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;369784178@2013-11-07T23:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-07T23:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367321123@2013-11-08T01:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T01:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;369787730@2013-11-08T02:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T02:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;369787731@2013-11-08T04:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T04:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;369787732@2013-11-08T05:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T05:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;369787733@2013-11-08T07:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T07:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;369787734@2013-11-08T08:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T08:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;369787735@2013-11-08T10:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T10:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/101435128" />
+          <ProgramURL>dvb://1.1.RacingUK;369787736@2013-11-08T11:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T11:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/5266813" />
+          <ProgramURL>dvb://1.1.RacingUK;367321130@2013-11-08T12:30:00+00:00--PT04H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T12:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT04H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;365671477@2013-11-08T16:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T16:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367321131@2013-11-08T18:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T18:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367321132@2013-11-08T19:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T19:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367321133@2013-11-08T21:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T21:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998408" />
+          <ProgramURL>dvb://1.1.RacingUK;367321134@2013-11-08T22:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-08T22:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;365671508@2013-11-09T00:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T00:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367322079@2013-11-09T01:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T01:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367322080@2013-11-09T03:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T03:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367322081@2013-11-09T04:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T04:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367322082@2013-11-09T06:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T06:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367322083@2013-11-09T07:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T07:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367322084@2013-11-09T09:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T09:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/22151793" />
+          <ProgramURL>dvb://1.1.RacingUK;367322085@2013-11-09T10:30:00+00:00--PT00H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T10:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/32379865" />
+          <ProgramURL>dvb://1.1.RacingUK;365671519@2013-11-09T11:00:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T11:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/47941844" />
+          <ProgramURL>dvb://1.1.RacingUK;365671520@2013-11-09T12:00:00+00:00--PT04H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T12:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT04H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258094" />
+          <ProgramURL>dvb://1.1.RacingUK;365671521@2013-11-09T16:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T16:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258094" />
+          <ProgramURL>dvb://1.1.RacingUK;367322086@2013-11-09T18:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T18:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258094" />
+          <ProgramURL>dvb://1.1.RacingUK;367322087@2013-11-09T20:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T20:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258094" />
+          <ProgramURL>dvb://1.1.RacingUK;367322088@2013-11-09T22:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-09T22:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258124" />
+          <ProgramURL>dvb://1.1.RacingUK;367322099@2013-11-10T00:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T00:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258124" />
+          <ProgramURL>dvb://1.1.RacingUK;367322381@2013-11-10T02:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T02:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258124" />
+          <ProgramURL>dvb://1.1.RacingUK;367322382@2013-11-10T04:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T04:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258124" />
+          <ProgramURL>dvb://1.1.RacingUK;367322383@2013-11-10T06:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T06:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/100258124" />
+          <ProgramURL>dvb://1.1.RacingUK;367322384@2013-11-10T08:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T08:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/34134976" />
+          <ProgramURL>dvb://1.1.RacingUK;367322106@2013-11-10T10:00:00+00:00--PT02H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T10:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/6136210" />
+          <ProgramURL>dvb://1.1.RacingUK;367322107@2013-11-10T12:30:00+00:00--PT03H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T12:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT03H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/27315729" />
+          <ProgramURL>dvb://1.1.RacingUK;367322108@2013-11-10T16:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T16:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/27315729" />
+          <ProgramURL>dvb://1.1.RacingUK;367322385@2013-11-10T17:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T17:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/27315729" />
+          <ProgramURL>dvb://1.1.RacingUK;367322386@2013-11-10T19:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T19:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/27315729" />
+          <ProgramURL>dvb://1.1.RacingUK;367322387@2013-11-10T20:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T20:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/27315729" />
+          <ProgramURL>dvb://1.1.RacingUK;367322388@2013-11-10T22:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T22:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/27315729" />
+          <ProgramURL>dvb://1.1.RacingUK;367322389@2013-11-10T23:30:00+00:00--PT00H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-10T23:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;367322127@2013-11-11T00:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T00:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333295@2013-11-11T01:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T01:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333296@2013-11-11T03:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T03:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333297@2013-11-11T04:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T04:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333298@2013-11-11T06:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T06:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333299@2013-11-11T07:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T07:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333300@2013-11-11T09:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T09:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333301@2013-11-11T10:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T10:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21998019" />
+          <ProgramURL>dvb://1.1.RacingUK;369333302@2013-11-11T12:00:00+00:00--PT00H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T12:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/6093465" />
+          <ProgramURL>dvb://1.1.RacingUK;367322136@2013-11-11T12:30:00+00:00--PT05H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T12:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT05H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25068749" />
+          <ProgramURL>dvb://1.1.RacingUK;367322137@2013-11-11T17:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T17:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25068749" />
+          <ProgramURL>dvb://1.1.RacingUK;369333303@2013-11-11T18:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T18:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25068749" />
+          <ProgramURL>dvb://1.1.RacingUK;369333304@2013-11-11T19:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T19:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25068749" />
+          <ProgramURL>dvb://1.1.RacingUK;369333305@2013-11-11T20:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T20:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25068749" />
+          <ProgramURL>dvb://1.1.RacingUK;369333306@2013-11-11T21:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T21:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25068749" />
+          <ProgramURL>dvb://1.1.RacingUK;369333307@2013-11-11T22:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T22:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25068749" />
+          <ProgramURL>dvb://1.1.RacingUK;369333308@2013-11-11T23:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-11T23:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;367322163@2013-11-12T00:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T00:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334364@2013-11-12T01:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T01:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334365@2013-11-12T02:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T02:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334366@2013-11-12T03:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T03:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334367@2013-11-12T04:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T04:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334368@2013-11-12T05:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T05:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334369@2013-11-12T06:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T06:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334370@2013-11-12T07:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T07:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334371@2013-11-12T08:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T08:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334372@2013-11-12T09:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T09:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334373@2013-11-12T10:30:00+00:00--PT01H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T10:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/25195360" />
+          <ProgramURL>dvb://1.1.RacingUK;369334374@2013-11-12T11:30:00+00:00--PT00H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T11:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/5239136" />
+          <ProgramURL>dvb://1.1.RacingUK;369334375@2013-11-12T12:00:00+00:00--PT04H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T12:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT04H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21513032" />
+          <ProgramURL>dvb://1.1.RacingUK;367322177@2013-11-12T16:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T16:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21513032" />
+          <ProgramURL>dvb://1.1.RacingUK;369334376@2013-11-12T17:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T17:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21513032" />
+          <ProgramURL>dvb://1.1.RacingUK;369334377@2013-11-12T19:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T19:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21513032" />
+          <ProgramURL>dvb://1.1.RacingUK;369334378@2013-11-12T20:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T20:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21513032" />
+          <ProgramURL>dvb://1.1.RacingUK;369334379@2013-11-12T22:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T22:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21513032" />
+          <ProgramURL>dvb://1.1.RacingUK;369334380@2013-11-12T23:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-12T23:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21536656" />
+          <ProgramURL>dvb://1.1.RacingUK;367322200@2013-11-13T01:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T01:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21536656" />
+          <ProgramURL>dvb://1.1.RacingUK;369338828@2013-11-13T02:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T02:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21536656" />
+          <ProgramURL>dvb://1.1.RacingUK;369338829@2013-11-13T04:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T04:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21536656" />
+          <ProgramURL>dvb://1.1.RacingUK;369338830@2013-11-13T05:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T05:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21536656" />
+          <ProgramURL>dvb://1.1.RacingUK;369338831@2013-11-13T07:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T07:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21536656" />
+          <ProgramURL>dvb://1.1.RacingUK;369338832@2013-11-13T08:30:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T08:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/21536656" />
+          <ProgramURL>dvb://1.1.RacingUK;369338833@2013-11-13T10:00:00+00:00--PT01H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T10:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT01H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/99396774" />
+          <ProgramURL>dvb://1.1.RacingUK;367322210@2013-11-13T11:30:00+00:00--PT00H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T11:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/99396774" />
+          <ProgramURL>dvb://1.1.RacingUK;367322211@2013-11-13T12:00:00+00:00--PT00H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T12:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT00H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/48017057" />
+          <ProgramURL>dvb://1.1.RacingUK;367322212@2013-11-13T12:30:00+00:00--PT03H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T12:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT03H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/5829217" />
+          <ProgramURL>dvb://1.1.RacingUK;367322213@2013-11-13T16:00:00+00:00--PT03H30M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T16:00:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT03H30M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/48017061" />
+          <ProgramURL>dvb://1.1.RacingUK;367322214@2013-11-13T19:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T19:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/48017061" />
+          <ProgramURL>dvb://1.1.RacingUK;369338834@2013-11-13T21:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T21:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+        <ScheduleEvent>
+          <Program crid="crid://bds.tv/48017061" />
+          <ProgramURL>dvb://1.1.RacingUK;369338835@2013-11-13T23:30:00+00:00--PT02H00M00S</ProgramURL>
+          <PublishedStartTime>2013-11-13T23:30:00+00:00</PublishedStartTime>
+          <PublishedDuration>PT02H00M00S</PublishedDuration>
+        </ScheduleEvent>
+      </Schedule>
+    </ProgramLocationTable>
+  </ProgramDescription>
+</TVAMain>
