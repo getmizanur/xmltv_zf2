@@ -118,9 +118,9 @@ class ZeusServiceTest extends AbstractHttpControllerTestCase
                 $epg->epgFile = '/home/mizanur/public_html/xmltv/tests/data/bn/' . $file;
                 $epg->epgCreated = date('Y-m-d H:i:s');
 
-                if($sm->get('EpgModel')->saveRow($epg)) {
+                //if($sm->get('EpgModel')->saveRow($epg)) {
 
-                    var_dump('/home/mizanur/public_html/xmltv/tests/data/bn/' . $file);
+                    //var_dump('/home/mizanur/public_html/xmltv/tests/data/bn/' . $file);
                     //$this->showStatus($counter, count((array)$events), " " . 
                         //$channelNamespace . " - " . $channelCode);
 
@@ -128,7 +128,7 @@ class ZeusServiceTest extends AbstractHttpControllerTestCase
                        //->deleteOldRecords($channelNamespace, $serviceNamespace);
 
                     //$counter++;
-                }
+                //}
             }
         }
     }

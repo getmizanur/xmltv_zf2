@@ -121,9 +121,6 @@ class TvAnytimeService extends AbstractService
                     $epg->epgFile = $filePath;
                     $epg->epgCreated = date('Y-m-d H:i:s');
 
-                    //var_dump($epg->getArrayCopy());
-                    //die();
-
                     if($sm->get('EpgModel')->saveRow($epg)) {
                         $this->showStatus($counter, count((array)$scheduleEvents), " " . 
                             $channelNamespace . " - " . basename($filePath));
@@ -137,7 +134,7 @@ class TvAnytimeService extends AbstractService
             }
         }
 
-        if($counter == count((array)$scheduleEvents) + 1) {
+        if($counter >= count((array)$scheduleEvents) + 1) {
             $file = $sm->get('FileModel')->getFileByHash(
                 sha1_file($filePath)
             );
