@@ -19,16 +19,15 @@ class EpgTableTest extends AbstractModelTestCase
     public function testDeleteRecord()
     {
         $sm = $this->getApplicationServiceLocator();
-        $model = $sm->get('EpgModel');
+        $model = $sm->get('TvGrabber\Model\Table\EpgModel');
 
-        $model->deleteRecords(date('Y-m-d H:i:s'), date('Y-m-d H:i:s'), '4music', 'boxtv');
+        //$model->deleteRecords(date('Y-m-d H:i:s'), date('Y-m-d H:i:s'), '4music', 'boxtv');
     }
-
 
     public function testGetEpgByKeyId()
     {
         $sm = $this->getApplicationServiceLocator();
-        $model = $sm->get('EpgModel');
+        $model = $sm->get('TvGrabber\Model\Table\EpgModel');
 
         //$result = $model->getEpgByKeyId(16739);
 

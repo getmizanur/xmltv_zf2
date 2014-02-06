@@ -24,7 +24,7 @@ class HCController extends AbstractActionController
         $fileDir = '/home/mizanur/public_html/xmltv/tests/data/hc';
         $files = $this->scanDirectory($fileDir);
         foreach($files as $file) {
-            $sm->get('TvAnyTimeService')
+            $sm->get('TvGrabber\Model\Service\TvAnyTimeService')
                 ->registerFile(
                     'horseandcountry', 
                     'Horse and Country', 
@@ -33,7 +33,7 @@ class HCController extends AbstractActionController
                 );
         }
 
-        $files = $sm->get('FileModel')->getFilesByType(
+        $files = $sm->get('TvGrabber\Model\Table\FileModel')->getFilesByType(
             'horseandcountry',
             'Horse and Country',
             'epg' 
@@ -45,7 +45,7 @@ class HCController extends AbstractActionController
 
         if($files){
             foreach($files as $file) {
-                $sm->get('TvAnyTimeService')
+                $sm->get('TvGrabber\Model\Service\TvAnyTimeService')
                     ->processXml(25, 'horseandcountry', 164, 'Horse and Country', $file->filePath);
             }
         }else{

@@ -37,7 +37,7 @@ class TvAnytimeService extends AbstractService
             $endTime = $item['end'];
         });
 
-        $sm->get('EpgModel')->deleteRecords(
+        $sm->get('TvGrabber\Model\Table\EpgModel')->deleteRecords(
             $startTime, $endTime, $channelNamespace, $serviceNamespace
         );
 
@@ -121,11 +121,11 @@ class TvAnytimeService extends AbstractService
                     $epg->epgFile = $filePath;
                     $epg->epgCreated = date('Y-m-d H:i:s');
 
-                    if($sm->get('EpgModel')->saveRow($epg)) {
+                    if($sm->get('TvGrabber\Model\Table\EpgModel')->saveRow($epg)) {
                         $this->showStatus($counter, count((array)$scheduleEvents), " " . 
                             $channelNamespace . " - " . basename($filePath));
 
-                        $sm->get('EpgModel')
+                        $sm->get('TvGrabber\Model\Table\EpgModel')
                            ->deleteOldRecords($channelNamespace, $serviceNamespace);
                         
                         $counter++;
@@ -135,12 +135,12 @@ class TvAnytimeService extends AbstractService
         }
 
         if($counter >= count((array)$scheduleEvents) + 1) {
-            $file = $sm->get('FileModel')->getFileByHash(
+            $file = $sm->get('TvGrabber\Model\Table\FileModel')->getFileByHash(
                 sha1_file($filePath)
             );
 
             $file->fileProcessed = true;
-            $sm->get('FileModel')->saveRow($file);
+            $sm->get('TvGrabber\Model\Table\FileModel')->saveRow($file);
         }
     }
 
@@ -201,7 +201,7 @@ class TvAnytimeService extends AbstractService
         $sm = $this->getServiceLocator(); 
 
         if(preg_match('/xml$/', $filePath) && file_exists($filePath)) {
-            $row = $sm->get('FileModel')->getFileByHash(
+            $row = $sm->get('TvGrabber\Model\Table\FileModel')->getFileByHash(
                 sha1_file($filePath)
             );
             if(!$row->getArrayCopy()) {
@@ -214,7 +214,7 @@ class TvAnytimeService extends AbstractService
                 $file->fileProcessed = false;
                 $file->fileCreated = date('Y-m-d H:i:s');
 
-                $sm->get('FileModel')->saveRow($file);
+                $sm->get('TvGrabber\Model\Table\FileModel')->saveRow($file);
             }
         }
     }

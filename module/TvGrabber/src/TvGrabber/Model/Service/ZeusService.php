@@ -60,7 +60,7 @@ class ZeusService extends AbstractService
 
         $endTime = date('Y-m-d H:i:s', strtotime("+{$duration} SECONDS", strtotime($endTime)));
 
-        $sm->get('EpgModel')->deleteRecords(
+        $sm->get('TvGrabber\Model\Table\EpgModel')->deleteRecords(
             $startTime, $endTime, $channelNamespace, $serviceNamespace
         );
 
@@ -112,12 +112,12 @@ class ZeusService extends AbstractService
             $epg->epgFile = $filePath;
             $epg->epgCreated = date('Y-m-d H:i:s');
 
-            if($sm->get('EpgModel')->saveRow($epg)) {
+            if($sm->get('TvGrabber\Model\Table\EpgModel')->saveRow($epg)) {
 
                 $this->showStatus($counter, count((array)$events), " " . 
                     $channelNamespace . " - " . $channelCode);
 
-                $sm->get('EpgModel')
+                $sm->get('TvGrabber\Model\Table\EpgModel')
                    ->deleteOldRecords($channelNamespace, $serviceNamespace);
 
                 $counter++;
@@ -182,7 +182,7 @@ class ZeusService extends AbstractService
         $sm = $this->getServiceLocator(); 
 
         if(preg_match('/XML$/', $filePath) && file_exists($filePath)) {
-            $row = $sm->get('FileModel')->getFileByHash(
+            $row = $sm->get('TvGrabber\Model\Table\FileModel')->getFileByHash(
                 sha1_file($filePath)
             );
             if(!$row->getArrayCopy()) {
@@ -195,7 +195,7 @@ class ZeusService extends AbstractService
                 $file->fileProcessed = false;
                 $file->fileCreated = date('Y-m-d H:i:s');
 
-                $sm->get('FileModel')->saveRow($file);
+                $sm->get('TvGrabber\Model\Table\FileModel')->saveRow($file);
             }
         }
     }

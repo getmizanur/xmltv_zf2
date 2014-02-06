@@ -34,9 +34,9 @@ class DvbSIServiceTest extends AbstractHttpControllerTestCase
             $obj = $xml->xpath('/DVBSchedule/Schedule/TimePeriod/@endTime');
             $endTime = $obj[0]->endTime;
 
-            $sm->get('EpgModel')->deleteRecords(
-                $startTime, $endTime, $channelNamespace, $serviceNamespace
-            );
+            //$sm->get('TvGrabber\Model\Table\EpgModel')->deleteRecords(
+                //$startTime, $endTime, $channelNamespace, $serviceNamespace
+            //);
 
 
             $counter = 1;
@@ -82,17 +82,17 @@ class DvbSIServiceTest extends AbstractHttpControllerTestCase
                 $epg->epgFile = '/home/mizanur/public_html/xmltv/tests/data/vn/' . $file;
                 $epg->epgCreated = date('Y-m-d H:i:s');
 
-                if($sm->get('EpgModel')->saveRow($epg)) {
+                //if($sm->get('TvGrabber\Model\Table\EpgModel')->saveRow($epg)) {
 
-                    var_dump('/home/mizanur/public_html/xmltv/tests/data/vn/' . $file);
+                    //var_dump('/home/mizanur/public_html/xmltv/tests/data/vn/' . $file);
                     //$this->showStatus($counter, count((array)$events), " " . 
                         //$channelNamespace . " - " . $channelCode);
 
-                    //$sm->get('EpgModel')
+                    //$sm->get('TvGrabber\Model\Table\EpgModel')
                        //->deleteOldRecords($channelNamespace, $serviceNamespace);
 
-                    $counter++;
-                }
+                    //$counter++;
+                //}
             }
         }
     }

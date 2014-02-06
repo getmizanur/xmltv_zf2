@@ -19,7 +19,7 @@ class LiveStreamsTableTest extends AbstractModelTestCase
     public function testGetLiveStreamsByCompanyId()
     {
         $sm = $this->getApplicationServiceLocator();
-        $model = $sm->get('LiveStreamsModel');
+        $model = $sm->get('TvGrabber\Model\Table\LiveStreamsModel');
 
         $result = $model->getLiveStreamsByCompanyId(46);
 

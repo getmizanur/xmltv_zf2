@@ -21,7 +21,7 @@ class EbsControllerTest extends AbstractHttpControllerTestCase
     {
         $sm = $this->getApplicationServiceLocator();
 
-        $liveStreams = $sm->get('LiveStreamsModel')
+        $liveStreams = $sm->get('TvGrabber\Model\Table\LiveStreamsModel')
             ->getLiveStreamsByCompanyId(46);
 
         $map = array();
@@ -54,9 +54,9 @@ class EbsControllerTest extends AbstractHttpControllerTestCase
                 $date = \DateTime::createFromFormat('YmdHi', $stopTime);
                 $stopTime = $date->format('Y-m-d H:i');
 
-                $sm->get('EpgModel')->deleteRecords(
-                    $startTime, $stopTime, $displayname, 'tvplayer'
-                );
+                //$sm->get('TvGrabber\Model\Table\TvGrabber\Model\Table\EpgModel')->deleteRecords(
+                    //$startTime, $stopTime, $displayname, 'tvplayer'
+                //);
 
                 $counter = 1;
                 foreach($programmes as $programme) {
@@ -108,10 +108,10 @@ class EbsControllerTest extends AbstractHttpControllerTestCase
                     $epg->epgFile = '';
                     $epg->epgCreated = date('Y-m-d H:i:s');
 
-                     //var_dump($sm->get('EpgModel')->saveRow($epg));
+                     //var_dump($sm->get('TvGrabber\Model\Table\TvGrabber\Model\Table\EpgModel')->saveRow($epg));
 
 
-                    //if($sm->get('EpgModel')->saveRow($epg)) {
+                    //if($sm->get('TvGrabber\Model\Table\TvGrabber\Model\Table\EpgModel')->saveRow($epg)) {
                         //$this->assertTrue(true);
                         //DbUtil::showStatus($counter, count($programmes), " " . $displayname . " - " . array_search($displayname, $map));
 

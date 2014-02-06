@@ -8,22 +8,57 @@
 
 namespace TvGrabber\Model\Service;
 
+use Zend\EventManager\EventManager;
+use Zend\EventManager\EventManagerInterface;
+use Zend\EventManager\EventManagerAwareInterface;
+
+use Zend\Log\Logger;
+use Zend\Log\Writer\Stream;
+
 use TvGrabber\Model\Entity\Epg as EpgEntity;
 use TvGrabber\Model\Table\EpgTable;
 
 class XmltvService extends AbstractService
 {
+    protected $events;
+
+    public function setEventManager(EventManagerInterface $events)
+    {
+        $events->setIdentifiers(array(
+            __CLASS__,
+            get_called_class(),
+        ));
+        $this->events = $events;
+        return $this;
+    }
+
+    public function getEventManager() 
+    {
+        if(null === $this->events) {
+            $this->setEventManager(new EventManager());
+        }
+
+        return $this->events;
+    }
+
     public function processXml($companyCode, $companyNamespace) 
     {        
         $sm = $this->getServiceLocator(); 
 
-        $liveStreams = $sm->get('LiveStreamsModel')
+        $liveStreams = $sm->get('TvGrabber\Model\Table\LiveStreamsModel')
             ->getLiveStreamsByCompanyId($companyCode);
 
         $map = array();
         foreach($liveStreams as $key => $row) {
             $map[$key] = $row->epgName;
         }
+
+        $params = array(
+            'companyCode' => $companyCode, 
+            'companyNamespace' => $companyNamespace,
+            'logger_const' => 'INFO'
+        );
+        $this->getEventManager()->trigger('preInitializer', __CLASS__, $params);
         
         $xml = simplexml_load_file(__DIR__ . '/../../../../../../data/ebs/SimpleStream.xml');
         $channels = $xml->xpath('/tv/channel');
@@ -50,7 +85,7 @@ class XmltvService extends AbstractService
                 $date = \DateTime::createFromFormat('YmdHi', $stopTime);
                 $stopTime = $date->format('Y-m-d H:i');
 
-                $sm->get('EpgModel')->deleteRecords(
+                $sm->get('TvGrabber\Model\Table\EpgModel')->deleteRecords(
                     $startTime, $stopTime, $displayname, $companyNamespace
                 );
 
@@ -108,13 +143,29 @@ class XmltvService extends AbstractService
                     $epg->epgFile = '';
                     $epg->epgCreated = date('Y-m-d H:i:s');
 
-                    if($sm->get('EpgModel')->saveRow($epg)) {
+                    $params = array(
+                        'companyCode' => $companyCode, 
+                        'companyNamespace' => $companyNamespace,
+                    );
+                    $params = array_merge($params, $epg->getArrayCopy());
+                    if($sm->get('TvGrabber\Model\Table\EpgModel')->saveRow($epg)) {
+                        $params['logger_const'] = 'INFO';
+                        $this->getEventManager()->trigger('postInsert', __CLASS__, $params);
                         $this->showStatus($counter, count($programmes), " " . 
                             $displayname . " - " . array_search($displayname, $map));
 
-                        $sm->get('EpgModel')
+                        $sm->get('TvGrabber\Model\Table\EpgModel')
                            ->deleteOldRecords($displayname, $companyNamespace);
+                    }else{
+                        $params['logger_const'] = 'ERR';
+                        $this->getEventManager()->trigger(
+                            'postInsert', __CLASS__, $params
+                        );
                     }
+
+                    $this->getEventManager()->trigger(
+                        'postInsert', __CLASS__, $params
+                    );
 
                     $counter++;
                 }

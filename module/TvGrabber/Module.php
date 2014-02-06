@@ -2,11 +2,17 @@
 
 namespace TvGrabber;
 
+use TvGrabber\Listener\LoggingListener;
+use TvGrabber\Model\Service\XmltvService;
+
 use Zend\ModuleManager\ModuleManager;
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 use Zend\ModuleManager\Feature\ConsoleUsageProviderInterface;
 use Zend\ModuleManager\Feature\ServiceProviderInterface;
+
+use Zend\EventManager\EventManager;
+
 use Zend\Console\Adapter\AdapterInterface;
 use Zend\Db\Adapter\Adapter as DbAdapter;
 
@@ -35,7 +41,8 @@ class Module implements
         return include __DIR__ . '/config/module.config.php';
     }
     
-    public function getConsoleUsage(AdapterInterface $console){   
+    public function getConsoleUsage(AdapterInterface $console)
+    {   
         return array(          
             'Use --import-from-ebs - import epg from EBS',
             'Use --import-horse-and-country - import epg for "Horse and Country"',
@@ -43,16 +50,15 @@ class Module implements
         );
     }
     
-    public function getServiceConfig()                                                                                       
-    {
+    public function getServiceConfig()                                                                          {
         return array(
             'invokables' => array(
-                'XmltvService' => 'TvGrabber\Model\Service\XmltvService',
-                'TvAnytimeService' => 'TvGrabber\Model\Service\TvAnytimeService',
-                'ZeusService' => 'TvGrabber\Model\Service\ZeusService'
+                //'TvGrabber\Model\Service\XmltvService' => 'TvGrabber\Model\Service\XmltvService',
+                'TvGrabber\Model\Service\TvAnytimeService' => 'TvGrabber\Model\Service\TvAnytimeService',
+                'TvGrabber\Model\Service\ZeusService' => 'TvGrabber\Model\Service\ZeusService'
             ),
             'factories' => array(               
-                'EbsOptions' => function($sm) {
+                'TvGrabber\Options\EbsOptions' => function($sm) {
                     $config = $sm->get('Config');   
                     return new \TvGrabber\Options\EbsOptions($config['ebs_options']);
                 },             
@@ -68,33 +74,42 @@ class Module implements
                     $dbAdapter = new DbAdapter($config);
                     return $dbAdapter;              
                 }, 
-                'EpgTable' => function($sm) { 
+                'TvGrabber\Model\Table\EpgTable' => function($sm) { 
                     $epgTable = new Model\Table\EpgTable(
                         'epg', $sm->get('CatchuptvDbAdapter')
                     );
                     $epgTable->setServiceLocator($sm);
                     return $epgTable;
                 },
-                'FileTable' => function($sm) { 
+                'TvGrabber\Model\Table\FileTable' => function($sm) { 
                     $fileTable = new Model\Table\FileTable(
                         'file', $sm->get('CatchuptvDbAdapter')
                     );
                     $fileTable->setServiceLocator($sm);
                     return $fileTable;
                 },
-                'LiveStreamsTable' => function($sm) { 
+                'TvGrabber\Model\Table\LiveStreamsTable' => function($sm) { 
                     $liveStreamsTable = new Model\Table\LiveStreamsTable(
                         'live_streams', $sm->get('SimpleStreamClientsDbAdapter')
                     );
                     $liveStreamsTable->setServiceLocator($sm);
                     return $liveStreamsTable;
                 },
+                'TvGrabber\Model\Service\XmltvService' => function($sm) {
+                    $eventManager = new EventManager();
+                    $eventManager->attachAggregate(new LoggingListener());
+                    
+                    $xmltvService = new XmltvService();
+                    $xmltvService->setEventManager($eventManager);
+
+                    return $xmltvService;
+                }
             ),
             'aliases' => array(
-                'EbsOpt' => 'EbsOptions',
-                'EpgModel' => 'EpgTable', 
-                'FileModel' => 'FileTable', 
-                'LiveStreamsModel' => 'LiveStreamsTable', 
+                'TvGrabber\Options\EbsOpt' => 'TvGrabber\Options\EbsOptions',
+                'TvGrabber\Model\Table\EpgModel' => 'TvGrabber\Model\Table\EpgTable', 
+                'TvGrabber\Model\Table\FileModel' => 'TvGrabber\Model\Table\FileTable', 
+                'TvGrabber\Model\Table\LiveStreamsModel' => 'TvGrabber\Model\Table\LiveStreamsTable', 
             )
         );
     }   

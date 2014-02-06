@@ -9,6 +9,7 @@ use Zend\Loader\StandardAutoloader;
 $autoloader = new StandardAutoloader();
 $autoloader->registerNamespace('ModuleTest', __DIR__ . '/module/');
 $autoloader->registerNamespace('TvGrabber', __DIR__ . '/../module/TvGrabber/src/TvGrabber');
+$autoloader->registerNamespace('Epg', __DIR__ . '/../module/Epg/src/Epg');
 //$autoloader->registerNamespace('Mm', __DIR__ . '/../vendor/');
 $autoloader->registerNamespace('Zend', __DIR__ . '/../vendor/ZendX/');
 //$autoloader->registerNamespace('Zend', __DIR__ . '/../vendor/zendframework/zendframework/library/');

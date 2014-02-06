@@ -66,9 +66,9 @@ class ZeusServiceTest extends AbstractHttpControllerTestCase
 
             $endTime = date('Y-m-d H:i:s', strtotime("+{$duration} SECONDS", strtotime($endTime)));
 
-            $sm->get('EpgModel')->deleteRecords(
-                $startTime, $endTime, $channelNamespace, $serviceNamespace
-            );
+            //$sm->get('EpgModel')->deleteRecords(
+                //$startTime, $endTime, $channelNamespace, $serviceNamespace
+            //);
 
             while(list(, $node) = each($events)) {
                 $planDate = $node->PlanDate;

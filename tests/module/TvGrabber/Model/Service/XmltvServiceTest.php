@@ -17,7 +17,7 @@ class XmltvServiceTest extends AbstractHttpControllerTestCase
     public function testProcessXml()
     {
         $sm = $this->getApplicationServiceLocator();
-        $service = $sm->get('XmltvService');
+        $service = $sm->get('TvGrabber\Model\Service\XmltvService');
 
         //$service->processXml();
     }

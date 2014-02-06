@@ -36,9 +36,9 @@ class TvAnytimeServiceTest extends AbstractHttpControllerTestCase
                 $endTime = $item['end'];
             });
 
-            $sm->get('EpgModel')->deleteRecords(
-                $startTime, $endTime, 'Horse and Country', 'horseandcountry'
-            );
+            //$sm->get('TvGrabber\Model\Table\TvGrabber\Model\Table\EpgModel')->deleteRecords(
+                //$startTime, $endTime, 'Horse and Country', 'horseandcountry'
+            //);
 
             $scheduleEvents = $xml->xpath('//xmlns:ScheduleEvent');
 
@@ -114,7 +114,7 @@ class TvAnytimeServiceTest extends AbstractHttpControllerTestCase
                         $epg->epgFile = $fileUri;
                         $epg->epgCreated = date('Y-m-d H:i:s');
 
-                        //if($sm->get('EpgModel')->saveRow($epg)) {
+                        //if($sm->get('TvGrabber\Model\Table\TvGrabber\Model\Table\EpgModel')->saveRow($epg)) {
                             //var_dump($fileUri);
                         //}
 

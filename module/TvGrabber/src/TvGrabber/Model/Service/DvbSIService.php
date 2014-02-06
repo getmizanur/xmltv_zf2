@@ -14,6 +14,27 @@ use TvGrabber\Model\Table\EpgTable;
 
 class DvbSIService extends AbstractService
 {
+    protected $events;
+
+    public function setEventManager(EventManagerInterface $events)
+    {
+        $events->setIdentifiers(array(
+            __CLASS__,
+            get_called_class(),
+        ));
+        $this->events = $events;
+        return $this;
+    }
+
+    public function getEventManager() 
+    {
+        if(null === $this->events) {
+            $this->setEventManager(new EventManager());
+        }
+
+        return $this->events;
+    }
+
     public function processXml($serviceCode, $serviceNamespace, 
         $channelCode, $channelNamespace, $filePath) 
     {  
@@ -31,7 +52,7 @@ class DvbSIService extends AbstractService
         $obj = $xml->xpath('/DVBSchedule/Schedule/TimePeriod/@endTime');
         $endTime = $obj[0]->endTime;
 
-        $sm->get('EpgModel')->deleteRecords(
+        $sm->get('TvGrabber\Model\Table\EpgModel')->deleteRecords(
             $startTime, $endTime, $channelNamespace, $serviceNamespace
         );
 
@@ -78,24 +99,34 @@ class DvbSIService extends AbstractService
             $epg->epgFile = $filePath;
             $epg->epgCreated = date('Y-m-d H:i:s');
 
-            if($sm->get('EpgModel')->saveRow($epg)) {
+            $params = array(
+                'companyCode' => $serviceCode, 
+                'companyNamespace' => $serviceNamespace,
+            );
+            $params = array_merge($params, $epg->getArrayCopy()); 
+            if($sm->get('TvGrabber\Model\Table\EpgModel')->saveRow($epg)) {
+                $params['logger_const'] = 'INFO';
+                $this->getEventManager()->trigger('postInsert', __CLASS__, $params);
                 $this->showStatus($counter, count((array)$events), " " . 
                     $channelNamespace . " - " . $channelCode);
 
-                $sm->get('EpgModel')
+                $sm->get('TvGrabber\Model\Table\EpgModel')
                    ->deleteOldRecords($channelNamespace, $serviceNamespace);
 
                 $counter++;
+            }else{
+                $params['logger_const'] = 'ERR';
+                $this->getEventManager()->trigger('postInsert', __CLASS__, $params);
             }
         }
 
         if($counter >= count((array)$result) + 1) {
-            $file = $sm->get('FileModel')->getFileByHash(
+            $file = $sm->get('TvGrabber\Model\Table\FileModel')->getFileByHash(
                 sha1_file($filePath)
             );
 
             $file->fileProcessed = true;
-            $sm->get('FileModel')->saveRow($file);
+            $sm->get('TvGrabber\Model\Table\FileModel')->saveRow($file);
         }
 
     }
@@ -157,7 +188,7 @@ class DvbSIService extends AbstractService
         $sm = $this->getServiceLocator(); 
 
         if(preg_match('/XML$/', $filePath) && file_exists($filePath)) {
-            $row = $sm->get('FileModel')->getFileByHash(
+            $row = $sm->get('TvGrabber\Model\Table\FileModel')->getFileByHash(
                 sha1_file($filePath)
             );
             if(!$row->getArrayCopy()) {
@@ -170,7 +201,7 @@ class DvbSIService extends AbstractService
                 $file->fileProcessed = false;
                 $file->fileCreated = date('Y-m-d H:i:s');
 
-                $sm->get('FileModel')->saveRow($file);
+                $sm->get('TvGrabber\Model\Table\FileModel')->saveRow($file);
             }
         }
     }

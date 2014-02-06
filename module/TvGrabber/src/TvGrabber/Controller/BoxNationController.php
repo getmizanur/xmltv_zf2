@@ -24,7 +24,7 @@ class BoxNationController extends AbstractActionController
         $fileDir = '/home/mizanur/public_html/xmltv/tests/data/bn';
         $files = $this->scanDirectory($fileDir);
         foreach($files as $file) {
-            $sm->get('ZeusService')
+            $sm->get('TvGrabber\Model\Service\ZeusService')
                 ->registerFile(
                     'boxnation', 
                     'Box Nation', 
@@ -33,7 +33,7 @@ class BoxNationController extends AbstractActionController
                 );
         }
 
-        $files = $sm->get('FileModel')->getFilesByType(
+        $files = $sm->get('TvGrabber\Model\Table\FileModel')->getFilesByType(
             'boxnation',
             'Box Nation',
             'epg' 
@@ -45,7 +45,7 @@ class BoxNationController extends AbstractActionController
 
         if($files){
             foreach($files as $file) {
-                $sm->get('ZeusService')
+                $sm->get('TvGrabber\Model\Service\ZeusService')
                     ->processXml(37, 'boxnation', 63, 'Box Nation', $file->filePath);
             }
         }else{

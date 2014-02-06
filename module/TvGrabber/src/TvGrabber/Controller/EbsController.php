@@ -20,7 +20,7 @@ class EbsController extends AbstractActionController
     {
         $sm = $this->getServiceLocator(); 
         
-        $ebsOpt = $sm->get('EbsOpt')
+        $ebsOpt = $sm->get('TvGrabber\Options\EbsOpt')
             ->getEpgOptions(); 
         
         $companyCodes = $ebsOpt->getCompanyCodes(); 
@@ -89,7 +89,7 @@ class EbsController extends AbstractActionController
                 echo " Importing EPG data for {$companies[$inputFilter->getValue('id')]}\n";
                 echo "----------------------------------------------------------\n";
 
-                $sm->get('XmltvService')->processXml(
+                $sm->get('TvGrabber\Model\Service\XmltvService')->processXml(
                     $inputFilter->getValue('id'), $companies[$inputFilter->getValue('id')]
                 );
            }
@@ -99,7 +99,7 @@ class EbsController extends AbstractActionController
                 echo " Importing EPG data for $namespace\n";
                 echo "----------------------------------------------------------\n";
 
-                $sm->get('XmltvService')->processXml($code, $namespace);
+                $sm->get('TvGrabber\Model\Service\XmltvService')->processXml($code, $namespace);
             }
         }
     }
