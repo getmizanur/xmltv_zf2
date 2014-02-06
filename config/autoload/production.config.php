@@ -4,15 +4,15 @@ return array(
         'xmltv' => array (
             //'catchuptv' => array(
                 //'driver' => 'Pdo',
-                //'dsn' => 'mysql:dbname=catchuptv;host=mm-phoenix.c1mmeweekpwh.eu-west-1.rds.amazonaws.com',
+                //'dsn' => 'mysql:dbname=catchuptv;host=localhost',
                 //'username' => 'ingest_root',
-                //'password' => '6fK0vgOkkIgI',
+                //'password' => '6fK0vgOaertarewt',
             //),
             //'simplestreamClients' => array(
                 //'driver' => 'Pdo',
-                //'dsn' => 'mysql:dbname=simplestream_clients;host=mm-phoenix.c1mmeweekpwh.eu-west-1.rds.amazonaws.com',
+                //'dsn' => 'mysql:dbname=simplestream_clients;host=localhost',
                 //'username' => 'ingest_root',
-                //'password' => '6fK0vgOkkIgI',
+                //'password' => '6fK0vgOkaertaer',
             //),
         ),
     ),
